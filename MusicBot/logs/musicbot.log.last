@@ -1,0 +1,89 @@
+[29.920101166] 2018-06-09 12:12:14,574 - INFO - launcher: Starting sanity checks
+[29.920101166] 2018-06-09 12:12:14,574 - INFO - launcher: Checking for Python 3.5+
+[29.920101166] 2018-06-09 12:12:14,574 - INFO - launcher: Checking console encoding
+[29.920101166] 2018-06-09 12:12:14,574 - INFO - launcher: Setting console encoding to UTF-8
+[29.920101166] 2018-06-09 12:12:14,574 - INFO - launcher: Ensuring we're in the right environment
+[31.915664673] 2018-06-09 12:12:14,576 - INFO - launcher: Adding local bins/ folder to path
+[31.915664673] 2018-06-09 12:12:14,576 - INFO - launcher: Required checks passed.
+[32.936334610] 2018-06-09 12:12:14,577 - INFO - launcher: Optional checks passed.
+[32.936334610] 2018-06-09 12:12:14,577 - INFO - launcher: Moving old musicbot log
+
+######################### PRE-RUN SANITY CHECKS PASSED #########################
+
+[1.0542092323303223] 2018-06-09 12:12:15,599 - WARNING - musicbot.config | In config.py::MainThread(17504), line 112 in run_checks: i18n file does not exist. Trying to fallback to config/i18n/en.json.
+[1.0542092323303223] 2018-06-09 12:12:15,599 - INFO - musicbot.config | In config.py::MainThread(17504), line 123 in run_checks: Using i18n: config/i18n/en.json
+[1.0571718215942383] 2018-06-09 12:12:15,602 - DEBUG - musicbot.json | In json.py::MainThread(17504), line 8 in __init__: Init JSON obj with config/i18n/en.json
+[1.2875561714172363] 2018-06-09 12:12:15,832 - DEBUG - musicbot.bot | In bot.py::MainThread(17504), line 227 in _setup_logging: Set logging level to INFO
+[1.2875561714172363] 2018-06-09 12:12:15,832 - INFO - musicbot.bot | In bot.py::MainThread(17504), line 84 in __init__: Starting MusicBot 1.9.7
+[1.2885813713073730] 2018-06-09 12:12:15,833 - INFO - musicbot.bot | In bot.py::MainThread(17504), line 90 in __init__: Loaded autoplaylist with 2531 entries
+[1.5338990688323975] 2018-06-09 12:12:16,078 - DEBUG - musicbot.spotify | In spotify.py::MainThread(17504), line 70 in get_token: Created a new access token: {'access_token': 'BQCi3jnJFI6CJaPeOnx27E7433onKgXLlWbUDgOo8hq1Nwjm76lwauq2v94HKEJdN3eoNxWsfe4mKsbPB_Q', 'token_type': 'Bearer', 'expires_in': 3600, 'scope': '', 'expires_at': 1528564336}
+[1.5349380970001221] 2018-06-09 12:12:16,079 - INFO - musicbot.bot | In bot.py::MainThread(17504), line 115 in __init__: Authenticated with Spotify successfully using client ID and secret.
+[3.9595241546630859] 2018-06-09 12:12:18,504 - DEBUG - musicbot.bot | In bot.py::MainThread(17504), line 1074 in on_ready: Connection established, ready to go.
+[3.9604120254516602] 2018-06-09 12:12:18,505 - DEBUG - musicbot.bot | In bot.py::MainThread(17504), line 339 in _cache_app_info: Caching app info
+[4.0162587165832520] 2018-06-09 12:12:18,561 - DEBUG - musicbot.bot | In bot.py::MainThread(17504), line 889 in _scheck_ensure_env: Ensuring data folders exist
+[4.0192494392395020] 2018-06-09 12:12:18,564 - DEBUG - musicbot.bot | In bot.py::MainThread(17504), line 905 in _scheck_server_permissions: Checking server permissions
+[4.0192494392395020] 2018-06-09 12:12:18,564 - DEBUG - musicbot.bot | In bot.py::MainThread(17504), line 909 in _scheck_autoplaylist: Auditing autoplaylist
+[4.0192494392395020] 2018-06-09 12:12:18,564 - DEBUG - musicbot.bot | In bot.py::MainThread(17504), line 913 in _scheck_configs: Validating config
+[4.0202474594116211] 2018-06-09 12:12:18,565 - DEBUG - musicbot.config | In config.py::MainThread(17504), line 212 in async_validate: Validating options...
+[4.0202474594116211] 2018-06-09 12:12:18,565 - DEBUG - musicbot.bot | In bot.py::MainThread(17504), line 916 in _scheck_configs: Validating permissions config
+[4.0202474594116211] 2018-06-09 12:12:18,565 - DEBUG - musicbot.permissions | In permissions.py::MainThread(17504), line 64 in async_validate: Validating permissions...
+[4.0202474594116211] 2018-06-09 12:12:18,565 - INFO - musicbot.bot | In bot.py::MainThread(17504), line 1091 in on_ready: Connected: 455029266225037322/NoteBlock#8822
+[4.0222430229187012] 2018-06-09 12:12:18,567 - INFO - musicbot.bot | In bot.py::MainThread(17504), line 1099 in on_ready: Owner:     368792134645448704/tee#0151
+
+[4.0232403278350830] 2018-06-09 12:12:18,568 - INFO - musicbot.bot | In bot.py::MainThread(17504), line 1102 in on_ready: Server List:
+[4.0242373943328857] 2018-06-09 12:12:18,569 - INFO - musicbot.bot | In bot.py::MainThread(17504), line 1105 in on_ready:  - tee's Server
+[4.0252349376678467] 2018-06-09 12:12:18,570 - INFO - musicbot.bot | In bot.py::MainThread(17504), line 1105 in on_ready:  - Bot Dev
+[4.0262322425842285] 2018-06-09 12:12:18,571 - INFO - musicbot.bot | In bot.py::MainThread(17504), line 1138 in on_ready: Bound to text channels:
+[4.0272586345672607] 2018-06-09 12:12:18,572 - INFO - musicbot.bot | In bot.py::MainThread(17504), line 1139 in <listcomp>:  - Bot Dev/general
+[4.0282323360443115] 2018-06-09 12:12:18,573 - INFO - musicbot.bot | In bot.py::MainThread(17504), line 1139 in <listcomp>:  - tee's Server/voice
+[4.0282323360443115] 2018-06-09 12:12:18,573 - INFO - musicbot.bot | In bot.py::MainThread(17504), line 1164 in on_ready: Autojoining voice chanels:
+[4.0292205810546875] 2018-06-09 12:12:18,574 - INFO - musicbot.bot | In bot.py::MainThread(17504), line 1165 in <listcomp>:  - tee's Server/TeeChat
+[4.0292205810546875] 2018-06-09 12:12:18,574 - INFO - musicbot.bot | In bot.py::MainThread(17504), line 1165 in <listcomp>:  - Bot Dev/General
+[4.0302186012268066] 2018-06-09 12:12:18,575 - INFO - musicbot.bot | In bot.py::MainThread(17504), line 1182 in on_ready: Options:
+[4.0302186012268066] 2018-06-09 12:12:18,575 - INFO - musicbot.bot | In bot.py::MainThread(17504), line 1184 in on_ready:   Command prefix: *
+[4.0312159061431885] 2018-06-09 12:12:18,576 - INFO - musicbot.bot | In bot.py::MainThread(17504), line 1185 in on_ready:   Default volume: 25%
+[4.0312159061431885] 2018-06-09 12:12:18,576 - INFO - musicbot.bot | In bot.py::MainThread(17504), line 1187 in on_ready:   Skip threshold: 2 votes or 50%
+[4.0322127342224121] 2018-06-09 12:12:18,577 - INFO - musicbot.bot | In bot.py::MainThread(17504), line 1188 in on_ready:   Now Playing @mentions: Enabled
+[4.0322127342224121] 2018-06-09 12:12:18,577 - INFO - musicbot.bot | In bot.py::MainThread(17504), line 1189 in on_ready:   Auto-Summon: Enabled
+[4.0322127342224121] 2018-06-09 12:12:18,577 - INFO - musicbot.bot | In bot.py::MainThread(17504), line 1190 in on_ready:   Auto-Playlist: Disabled (order: random)
+[4.0332102775573730] 2018-06-09 12:12:18,578 - INFO - musicbot.bot | In bot.py::MainThread(17504), line 1191 in on_ready:   Auto-Pause: Enabled
+[4.0332102775573730] 2018-06-09 12:12:18,578 - INFO - musicbot.bot | In bot.py::MainThread(17504), line 1192 in on_ready:   Delete Messages: Enabled
+[4.0342073440551758] 2018-06-09 12:12:18,579 - INFO - musicbot.bot | In bot.py::MainThread(17504), line 1194 in on_ready:     Delete Invoking: Disabled
+[4.0342073440551758] 2018-06-09 12:12:18,579 - INFO - musicbot.bot | In bot.py::MainThread(17504), line 1195 in on_ready:   Debug Mode: Disabled
+[4.0352053642272949] 2018-06-09 12:12:18,580 - INFO - musicbot.bot | In bot.py::MainThread(17504), line 1196 in on_ready:   Downloaded songs will be saved
+[4.0352053642272949] 2018-06-09 12:12:18,580 - INFO - musicbot.bot | In bot.py::MainThread(17504), line 1198 in on_ready:   Status message: *help for more info
+[4.0352053642272949] 2018-06-09 12:12:18,580 - INFO - musicbot.bot | In bot.py::MainThread(17504), line 1199 in on_ready:   Write current songs to file: Enabled
+[4.0362029075622559] 2018-06-09 12:12:18,581 - INFO - musicbot.bot | In bot.py::MainThread(17504), line 1200 in on_ready:   Author insta-skip: Enabled
+[4.0362029075622559] 2018-06-09 12:12:18,581 - INFO - musicbot.bot | In bot.py::MainThread(17504), line 1201 in on_ready:   Embeds: Disabled
+[4.0362029075622559] 2018-06-09 12:12:18,581 - INFO - musicbot.bot | In bot.py::MainThread(17504), line 1202 in on_ready:   Spotify integration: Enabled
+[4.0371992588043213] 2018-06-09 12:12:18,582 - INFO - musicbot.bot | In bot.py::MainThread(17504), line 281 in _join_startup_channels: Attempting to join tee's Server/TeeChat
+[4.0371992588043213] 2018-06-09 12:12:18,582 - DEBUG - musicbot.bot | In bot.py::MainThread(17504), line 452 in get_voice_client: Connection attempt 1 to TeeChat
+[4.0381968021392822] 2018-06-09 12:12:18,583 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(17504), line 391 in join_voice_channel: (join_voice_channel) creating futures
+[4.0381968021392822] 2018-06-09 12:12:18,583 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(17504), line 397 in join_voice_channel: (join_voice_channel) setting voice state
+[4.0381968021392822] 2018-06-09 12:12:18,583 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(17504), line 400 in join_voice_channel: (join_voice_channel) waiting for session id
+[4.0980496406555176] 2018-06-09 12:12:18,643 - DEBUG - musicbot.bot | In bot.py::MainThread(17504), line 2926 in on_voice_state_update: Resumed voice connection to tee's Server/TeeChat
+[4.0990359783172607] 2018-06-09 12:12:18,644 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(17504), line 2938 in on_voice_state_update: Voice state update for 455029266225037322/NoteBlock#8822 on tee's Server/TeeChat -> [RESUME, CONNECT]
+[4.0990359783172607] 2018-06-09 12:12:18,644 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(17504), line 404 in join_voice_channel: (join_voice_channel) waiting for voice data
+[4.1139957904815674] 2018-06-09 12:12:18,659 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(17504), line 418 in join_voice_channel: (join_voice_channel) connecting...
+[4.4909942150115967] 2018-06-09 12:12:19,036 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(17504), line 430 in join_voice_channel: (join_voice_channel) connection successful
+[4.4919874668121338] 2018-06-09 12:12:19,037 - DEBUG - musicbot.bot | In bot.py::MainThread(17504), line 478 in get_voice_client: Connected in 0.5s
+[4.4919874668121338] 2018-06-09 12:12:19,037 - INFO - musicbot.bot | In bot.py::MainThread(17504), line 479 in get_voice_client: Connected to tee's Server/TeeChat
+[4.4939820766448975] 2018-06-09 12:12:19,039 - INFO - musicbot.bot | In bot.py::MainThread(17504), line 297 in _join_startup_channels: Joined tee's Server/TeeChat
+[4.4959752559661865] 2018-06-09 12:12:19,041 - INFO - musicbot.bot | In bot.py::MainThread(17504), line 281 in _join_startup_channels: Attempting to join Bot Dev/General
+[4.4970071315765381] 2018-06-09 12:12:19,042 - DEBUG - musicbot.bot | In bot.py::MainThread(17504), line 452 in get_voice_client: Connection attempt 1 to General
+[4.4979701042175293] 2018-06-09 12:12:19,043 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(17504), line 391 in join_voice_channel: (join_voice_channel) creating futures
+[4.4979701042175293] 2018-06-09 12:12:19,043 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(17504), line 397 in join_voice_channel: (join_voice_channel) setting voice state
+[4.4989669322967529] 2018-06-09 12:12:19,044 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(17504), line 400 in join_voice_channel: (join_voice_channel) waiting for session id
+[4.4989669322967529] 2018-06-09 12:12:19,044 - VOICEDEBUG - musicbot.player | In player.py::MainThread(17504), line 373 in websocket_check: Starting websocket check loop for tee's Server
+[4.5388596057891846] 2018-06-09 12:12:19,083 - DEBUG - musicbot.bot | In bot.py::MainThread(17504), line 2926 in on_voice_state_update: Resumed voice connection to Bot Dev/General
+[4.5388596057891846] 2018-06-09 12:12:19,083 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(17504), line 2938 in on_voice_state_update: Voice state update for 455029266225037322/NoteBlock#8822 on Bot Dev/General -> [RESUME, CONNECT]
+[4.5398569107055664] 2018-06-09 12:12:19,084 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(17504), line 404 in join_voice_channel: (join_voice_channel) waiting for voice data
+[4.5568118095397949] 2018-06-09 12:12:19,101 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(17504), line 418 in join_voice_channel: (join_voice_channel) connecting...
+[4.7822446823120117] 2018-06-09 12:12:19,327 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(17504), line 430 in join_voice_channel: (join_voice_channel) connection successful
+[4.7822446823120117] 2018-06-09 12:12:19,327 - DEBUG - musicbot.bot | In bot.py::MainThread(17504), line 478 in get_voice_client: Connected in 0.3s
+[4.7822446823120117] 2018-06-09 12:12:19,327 - INFO - musicbot.bot | In bot.py::MainThread(17504), line 479 in get_voice_client: Connected to Bot Dev/General
+[4.7852003574371338] 2018-06-09 12:12:19,330 - DEBUG - musicbot.bot | In bot.py::MainThread(17504), line 849 in deserialize_queue: Deserializing queue for 455029827083173899
+[4.9138541221618652] 2018-06-09 12:12:19,458 - DEBUG - musicbot.bot | In bot.py::MainThread(17504), line 570 in get_player: Created player via deserialization for server 455029827083173899 with 0 entries
+[4.9138541221618652] 2018-06-09 12:12:19,458 - INFO - musicbot.bot | In bot.py::MainThread(17504), line 297 in _join_startup_channels: Joined Bot Dev/General
+[4.9148516654968262] 2018-06-09 12:12:19,459 - VOICEDEBUG - musicbot.player | In player.py::MainThread(17504), line 373 in websocket_check: Starting websocket check loop for Bot Dev
+[7.6136310100555420] 2018-06-09 12:12:22,158 - INFO - musicbot.bot | In bot.py::MainThread(17504), line 2734 in on_message: 368792134645448704/tee#0151: *help

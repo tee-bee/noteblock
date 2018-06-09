@@ -1,0 +1,512 @@
+[29.919385910] 2018-06-09 12:13:03,279 - INFO - launcher: Starting sanity checks
+[29.919385910] 2018-06-09 12:13:03,279 - INFO - launcher: Checking for Python 3.5+
+[29.919385910] 2018-06-09 12:13:03,279 - INFO - launcher: Checking console encoding
+[30.917167664] 2018-06-09 12:13:03,280 - INFO - launcher: Setting console encoding to UTF-8
+[30.917167664] 2018-06-09 12:13:03,280 - INFO - launcher: Ensuring we're in the right environment
+[31.914234161] 2018-06-09 12:13:03,281 - INFO - launcher: Adding local bins/ folder to path
+[32.912254333] 2018-06-09 12:13:03,282 - INFO - launcher: Required checks passed.
+[32.912254333] 2018-06-09 12:13:03,282 - INFO - launcher: Optional checks passed.
+[32.912254333] 2018-06-09 12:13:03,282 - INFO - launcher: Moving old musicbot log
+
+######################### PRE-RUN SANITY CHECKS PASSED #########################
+
+[1.0133044719696045] 2018-06-09 12:13:04,263 - WARNING - musicbot.config | In config.py::MainThread(16840), line 112 in run_checks: i18n file does not exist. Trying to fallback to config/i18n/en.json.
+[1.0133044719696045] 2018-06-09 12:13:04,263 - INFO - musicbot.config | In config.py::MainThread(16840), line 123 in run_checks: Using i18n: config/i18n/en.json
+[1.0163094997406006] 2018-06-09 12:13:04,266 - DEBUG - musicbot.json | In json.py::MainThread(16840), line 8 in __init__: Init JSON obj with config/i18n/en.json
+[1.2606556415557861] 2018-06-09 12:13:04,510 - DEBUG - musicbot.bot | In bot.py::MainThread(16840), line 227 in _setup_logging: Set logging level to INFO
+[1.2606556415557861] 2018-06-09 12:13:04,510 - INFO - musicbot.bot | In bot.py::MainThread(16840), line 84 in __init__: Starting MusicBot 1.9.7
+[1.2616555690765381] 2018-06-09 12:13:04,511 - INFO - musicbot.bot | In bot.py::MainThread(16840), line 90 in __init__: Loaded autoplaylist with 2531 entries
+[1.5309038162231445] 2018-06-09 12:13:04,780 - DEBUG - musicbot.spotify | In spotify.py::MainThread(16840), line 70 in get_token: Created a new access token: {'access_token': 'BQD4om9QAIUgqVrgXa877oMfUyVFc5ieU5Sf9dx8JS2AbkS2d1ne-83YWb4MAw7Skn_UMljY_lL41LtfPC8', 'token_type': 'Bearer', 'expires_in': 3600, 'scope': '', 'expires_at': 1528564384}
+[1.5309038162231445] 2018-06-09 12:13:04,780 - INFO - musicbot.bot | In bot.py::MainThread(16840), line 115 in __init__: Authenticated with Spotify successfully using client ID and secret.
+[3.9175226688385010] 2018-06-09 12:13:07,167 - DEBUG - musicbot.bot | In bot.py::MainThread(16840), line 1074 in on_ready: Connection established, ready to go.
+[3.9185197353363037] 2018-06-09 12:13:07,168 - DEBUG - musicbot.bot | In bot.py::MainThread(16840), line 339 in _cache_app_info: Caching app info
+[3.9664268493652344] 2018-06-09 12:13:07,216 - DEBUG - musicbot.bot | In bot.py::MainThread(16840), line 889 in _scheck_ensure_env: Ensuring data folders exist
+[3.9703812599182129] 2018-06-09 12:13:07,220 - DEBUG - musicbot.bot | In bot.py::MainThread(16840), line 905 in _scheck_server_permissions: Checking server permissions
+[3.9703812599182129] 2018-06-09 12:13:07,220 - DEBUG - musicbot.bot | In bot.py::MainThread(16840), line 909 in _scheck_autoplaylist: Auditing autoplaylist
+[3.9703812599182129] 2018-06-09 12:13:07,220 - DEBUG - musicbot.bot | In bot.py::MainThread(16840), line 913 in _scheck_configs: Validating config
+[3.9703812599182129] 2018-06-09 12:13:07,220 - DEBUG - musicbot.config | In config.py::MainThread(16840), line 212 in async_validate: Validating options...
+[3.9714121818542480] 2018-06-09 12:13:07,221 - DEBUG - musicbot.bot | In bot.py::MainThread(16840), line 916 in _scheck_configs: Validating permissions config
+[3.9714121818542480] 2018-06-09 12:13:07,221 - DEBUG - musicbot.permissions | In permissions.py::MainThread(16840), line 64 in async_validate: Validating permissions...
+[3.9714121818542480] 2018-06-09 12:13:07,221 - INFO - musicbot.bot | In bot.py::MainThread(16840), line 1091 in on_ready: Connected: 455029266225037322/NoteBlock#8822
+[3.9733760356903076] 2018-06-09 12:13:07,223 - INFO - musicbot.bot | In bot.py::MainThread(16840), line 1099 in on_ready: Owner:     368792134645448704/tee#0151
+
+[3.9743731021881104] 2018-06-09 12:13:07,224 - INFO - musicbot.bot | In bot.py::MainThread(16840), line 1102 in on_ready: Server List:
+[3.9763636589050293] 2018-06-09 12:13:07,226 - INFO - musicbot.bot | In bot.py::MainThread(16840), line 1105 in on_ready:  - tee's Server
+[3.9773614406585693] 2018-06-09 12:13:07,227 - INFO - musicbot.bot | In bot.py::MainThread(16840), line 1105 in on_ready:  - Bot Dev
+[3.9793567657470703] 2018-06-09 12:13:07,229 - INFO - musicbot.bot | In bot.py::MainThread(16840), line 1138 in on_ready: Bound to text channels:
+[3.9803574085235596] 2018-06-09 12:13:07,230 - INFO - musicbot.bot | In bot.py::MainThread(16840), line 1139 in <listcomp>:  - tee's Server/voice
+[3.9823782444000244] 2018-06-09 12:13:07,232 - INFO - musicbot.bot | In bot.py::MainThread(16840), line 1139 in <listcomp>:  - Bot Dev/general
+[3.9843440055847168] 2018-06-09 12:13:07,234 - INFO - musicbot.bot | In bot.py::MainThread(16840), line 1164 in on_ready: Autojoining voice chanels:
+[3.9853401184082031] 2018-06-09 12:13:07,235 - INFO - musicbot.bot | In bot.py::MainThread(16840), line 1165 in <listcomp>:  - tee's Server/TeeChat
+[3.9873347282409668] 2018-06-09 12:13:07,237 - INFO - musicbot.bot | In bot.py::MainThread(16840), line 1165 in <listcomp>:  - Bot Dev/General
+[3.9883322715759277] 2018-06-09 12:13:07,238 - INFO - musicbot.bot | In bot.py::MainThread(16840), line 1182 in on_ready: Options:
+[3.9893286228179932] 2018-06-09 12:13:07,239 - INFO - musicbot.bot | In bot.py::MainThread(16840), line 1184 in on_ready:   Command prefix: *
+[3.9903287887573242] 2018-06-09 12:13:07,240 - INFO - musicbot.bot | In bot.py::MainThread(16840), line 1185 in on_ready:   Default volume: 25%
+[3.9923574924468994] 2018-06-09 12:13:07,242 - INFO - musicbot.bot | In bot.py::MainThread(16840), line 1187 in on_ready:   Skip threshold: 2 votes or 50%
+[3.9933185577392578] 2018-06-09 12:13:07,243 - INFO - musicbot.bot | In bot.py::MainThread(16840), line 1188 in on_ready:   Now Playing @mentions: Enabled
+[3.9943165779113770] 2018-06-09 12:13:07,244 - INFO - musicbot.bot | In bot.py::MainThread(16840), line 1189 in on_ready:   Auto-Summon: Enabled
+[3.9953117370605469] 2018-06-09 12:13:07,245 - INFO - musicbot.bot | In bot.py::MainThread(16840), line 1190 in on_ready:   Auto-Playlist: Disabled (order: random)
+[3.9953117370605469] 2018-06-09 12:13:07,245 - INFO - musicbot.bot | In bot.py::MainThread(16840), line 1191 in on_ready:   Auto-Pause: Enabled
+[3.9963085651397705] 2018-06-09 12:13:07,246 - INFO - musicbot.bot | In bot.py::MainThread(16840), line 1192 in on_ready:   Delete Messages: Enabled
+[3.9963085651397705] 2018-06-09 12:13:07,246 - INFO - musicbot.bot | In bot.py::MainThread(16840), line 1194 in on_ready:     Delete Invoking: Disabled
+[3.9973061084747314] 2018-06-09 12:13:07,247 - INFO - musicbot.bot | In bot.py::MainThread(16840), line 1195 in on_ready:   Debug Mode: Disabled
+[3.9973061084747314] 2018-06-09 12:13:07,247 - INFO - musicbot.bot | In bot.py::MainThread(16840), line 1196 in on_ready:   Downloaded songs will be saved
+[3.9983029365539551] 2018-06-09 12:13:07,248 - INFO - musicbot.bot | In bot.py::MainThread(16840), line 1198 in on_ready:   Status message: *help for more info
+[3.9983029365539551] 2018-06-09 12:13:07,248 - INFO - musicbot.bot | In bot.py::MainThread(16840), line 1199 in on_ready:   Write current songs to file: Enabled
+[3.9993007183074951] 2018-06-09 12:13:07,249 - INFO - musicbot.bot | In bot.py::MainThread(16840), line 1200 in on_ready:   Author insta-skip: Enabled
+[3.9993007183074951] 2018-06-09 12:13:07,249 - INFO - musicbot.bot | In bot.py::MainThread(16840), line 1201 in on_ready:   Embeds: Enabled
+[4.0003142356872559] 2018-06-09 12:13:07,250 - INFO - musicbot.bot | In bot.py::MainThread(16840), line 1202 in on_ready:   Spotify integration: Enabled
+[4.0012950897216797] 2018-06-09 12:13:07,251 - INFO - musicbot.bot | In bot.py::MainThread(16840), line 281 in _join_startup_channels: Attempting to join tee's Server/TeeChat
+[4.0052850246429443] 2018-06-09 12:13:07,255 - DEBUG - musicbot.bot | In bot.py::MainThread(16840), line 452 in get_voice_client: Connection attempt 1 to TeeChat
+[4.0052850246429443] 2018-06-09 12:13:07,255 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 391 in join_voice_channel: (join_voice_channel) creating futures
+[4.0052850246429443] 2018-06-09 12:13:07,255 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 397 in join_voice_channel: (join_voice_channel) setting voice state
+[4.0052850246429443] 2018-06-09 12:13:07,255 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 400 in join_voice_channel: (join_voice_channel) waiting for session id
+[4.0592470169067383] 2018-06-09 12:13:07,308 - DEBUG - musicbot.bot | In bot.py::MainThread(16840), line 2926 in on_voice_state_update: Resumed voice connection to tee's Server/TeeChat
+[4.0601384639739990] 2018-06-09 12:13:07,309 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 2938 in on_voice_state_update: Voice state update for 455029266225037322/NoteBlock#8822 on tee's Server/TeeChat -> [RESUME, CONNECT]
+[4.0601384639739990] 2018-06-09 12:13:07,309 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 404 in join_voice_channel: (join_voice_channel) waiting for voice data
+[4.0701687335968018] 2018-06-09 12:13:07,319 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 418 in join_voice_channel: (join_voice_channel) connecting...
+[4.4461424350738525] 2018-06-09 12:13:07,695 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 430 in join_voice_channel: (join_voice_channel) connection successful
+[4.4471039772033691] 2018-06-09 12:13:07,696 - DEBUG - musicbot.bot | In bot.py::MainThread(16840), line 478 in get_voice_client: Connected in 0.4s
+[4.4471039772033691] 2018-06-09 12:13:07,696 - INFO - musicbot.bot | In bot.py::MainThread(16840), line 479 in get_voice_client: Connected to tee's Server/TeeChat
+[4.4490988254547119] 2018-06-09 12:13:07,698 - INFO - musicbot.bot | In bot.py::MainThread(16840), line 297 in _join_startup_channels: Joined tee's Server/TeeChat
+[4.4510943889617920] 2018-06-09 12:13:07,700 - INFO - musicbot.bot | In bot.py::MainThread(16840), line 281 in _join_startup_channels: Attempting to join Bot Dev/General
+[4.4540853500366211] 2018-06-09 12:13:07,703 - DEBUG - musicbot.bot | In bot.py::MainThread(16840), line 452 in get_voice_client: Connection attempt 1 to General
+[4.4540853500366211] 2018-06-09 12:13:07,703 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 391 in join_voice_channel: (join_voice_channel) creating futures
+[4.4540853500366211] 2018-06-09 12:13:07,703 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 397 in join_voice_channel: (join_voice_channel) setting voice state
+[4.4551177024841309] 2018-06-09 12:13:07,704 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 400 in join_voice_channel: (join_voice_channel) waiting for session id
+[4.4551177024841309] 2018-06-09 12:13:07,704 - VOICEDEBUG - musicbot.player | In player.py::MainThread(16840), line 373 in websocket_check: Starting websocket check loop for tee's Server
+[4.4999978542327881] 2018-06-09 12:13:07,749 - DEBUG - musicbot.bot | In bot.py::MainThread(16840), line 2926 in on_voice_state_update: Resumed voice connection to Bot Dev/General
+[4.5009958744049072] 2018-06-09 12:13:07,750 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 2938 in on_voice_state_update: Voice state update for 455029266225037322/NoteBlock#8822 on Bot Dev/General -> [RESUME, CONNECT]
+[4.5009958744049072] 2018-06-09 12:13:07,750 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 404 in join_voice_channel: (join_voice_channel) waiting for voice data
+[4.5129323005676270] 2018-06-09 12:13:07,762 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 418 in join_voice_channel: (join_voice_channel) connecting...
+[4.7313423156738281] 2018-06-09 12:13:07,981 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 430 in join_voice_channel: (join_voice_channel) connection successful
+[4.7313423156738281] 2018-06-09 12:13:07,981 - DEBUG - musicbot.bot | In bot.py::MainThread(16840), line 478 in get_voice_client: Connected in 0.3s
+[4.7313423156738281] 2018-06-09 12:13:07,981 - INFO - musicbot.bot | In bot.py::MainThread(16840), line 479 in get_voice_client: Connected to Bot Dev/General
+[4.7323422431945801] 2018-06-09 12:13:07,982 - DEBUG - musicbot.bot | In bot.py::MainThread(16840), line 849 in deserialize_queue: Deserializing queue for 455029827083173899
+[4.8599975109100342] 2018-06-09 12:13:08,109 - DEBUG - musicbot.bot | In bot.py::MainThread(16840), line 570 in get_player: Created player via deserialization for server 455029827083173899 with 0 entries
+[4.8599975109100342] 2018-06-09 12:13:08,109 - INFO - musicbot.bot | In bot.py::MainThread(16840), line 297 in _join_startup_channels: Joined Bot Dev/General
+[4.8610076904296875] 2018-06-09 12:13:08,110 - VOICEDEBUG - musicbot.player | In player.py::MainThread(16840), line 373 in websocket_check: Starting websocket check loop for Bot Dev
+[243.5526585578918457] 2018-06-09 12:17:06,802 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 2938 in on_voice_state_update: Voice state update for 365840126938447872/Mr™★SecuPupps©#8028 on tee's Server/TeeChat -> [JOIN, CONNECT]
+[243.5526585578918457] 2018-06-09 12:17:06,802 - INFO - musicbot.bot | In bot.py::MainThread(16840), line 2949 in on_voice_state_update: 365840126938447872/Mr™★SecuPupps©#8028 has joined tee's Server/TeeChat
+[248.9661376476287842] 2018-06-09 12:17:12,215 - INFO - musicbot.bot | In bot.py::MainThread(16840), line 2734 in on_message: 365840126938447872/Mr™★SecuPupps©#8028: *help
+[271.8000483512878418] 2018-06-09 12:17:35,049 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 2938 in on_voice_state_update: Voice state update for 368792134645448704/tee#0151 on tee's Server/TeeChat -> [JOIN, CONNECT]
+[271.8000483512878418] 2018-06-09 12:17:35,049 - INFO - musicbot.bot | In bot.py::MainThread(16840), line 2949 in on_voice_state_update: 368792134645448704/tee#0151 has joined tee's Server/TeeChat
+[277.2966597080230713] 2018-06-09 12:17:40,546 - INFO - musicbot.bot | In bot.py::MainThread(16840), line 2734 in on_message: 368792134645448704/tee#0151: *play Let's hit the Climax!
+[277.8315839767456055] 2018-06-09 12:17:41,081 - DEBUG - musicbot.bot | In bot.py::MainThread(16840), line 1517 in cmd_play: {'_type': 'url', 'url': "ytsearch:Let's hit the Climax!", 'ie_key': None, 'extractor': 'generic', 'webpage_url': "Let's hit the Climax!", 'webpage_url_basename': "Let's hit the Climax!", 'extractor_key': 'Generic'}
+[281.7055628299713135] 2018-06-09 12:17:44,955 - DEBUG - musicbot.entry | In entry.py::MainThread(16840), line 54 in get_ready_future: Created future for None
+[281.7065598964691162] 2018-06-09 12:17:44,956 - DEBUG - musicbot.bot | In bot.py::MainThread(16840), line 825 in serialize_queue: Serializing queue for 377547112629403649
+[281.7075581550598145] 2018-06-09 12:17:44,957 - INFO - musicbot.entry | In entry.py::MainThread(16840), line 196 in _download: Download cached: https://www.youtube.com/watch?v=-lUbou1JCOE
+[283.7032103538513184] 2018-06-09 12:17:46,952 - DEBUG - musicbot.entry | In entry.py::MainThread(16840), line 54 in get_ready_future: Created future for audio_cache\youtube--lUbou1JCOE-Lets_Hit_The_Climax_-_Bayonetta_Music_Extended.webm
+[283.7032103538513184] 2018-06-09 12:17:46,952 - FFMPEG - musicbot.player | In player.py::MainThread(16840), line 330 in _play: Creating player with options: -nostdin -vn audio_cache\youtube--lUbou1JCOE-Lets_Hit_The_Climax_-_Bayonetta_Music_Extended.webm
+[283.7261493206024170] 2018-06-09 12:17:46,975 - DEBUG - musicbot.bot | In bot.py::MainThread(16840), line 825 in serialize_queue: Serializing queue for 377547112629403649
+[283.7271468639373779] 2018-06-09 12:17:46,976 - DEBUG - musicbot.bot | In bot.py::MainThread(16840), line 868 in write_current_song: Writing current song for 377547112629403649
+[307.0202181339263916] 2018-06-09 12:18:10,269 - DEBUG - musicbot.player | In player.py::MainThread(16840), line 383 in websocket_check: Voice websocket for "Bot Dev" is CLOSED, reconnecting
+[307.0202181339263916] 2018-06-09 12:18:10,269 - DEBUG - musicbot.bot | In bot.py::MainThread(16840), line 487 in reconnect_voice_client: Reconnecting voice client on "Bot Dev" to "General"
+[307.0202181339263916] 2018-06-09 12:18:10,269 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 504 in reconnect_voice_client: (reconnect_voice_client) Disconnecting
+[307.0202181339263916] 2018-06-09 12:18:10,269 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 512 in reconnect_voice_client: (reconnect_voice_client) Sleeping for 0.1
+[307.1211898326873779] 2018-06-09 12:18:10,370 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 516 in reconnect_voice_client: (reconnect_voice_client) Getting voice client
+[307.1211898326873779] 2018-06-09 12:18:10,370 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 523 in reconnect_voice_client: (reconnect_voice_client) Swapping voice client
+[307.1211898326873779] 2018-06-09 12:18:10,370 - DEBUG - musicbot.bot | In bot.py::MainThread(16840), line 531 in reconnect_voice_client: Reconnected voice client on "Bot Dev" to "General"
+[311.1255848407745361] 2018-06-09 12:18:14,375 - DEBUG - musicbot.player | In player.py::MainThread(16840), line 383 in websocket_check: Voice websocket for "Bot Dev" is CLOSED, reconnecting
+[311.1255848407745361] 2018-06-09 12:18:14,375 - DEBUG - musicbot.bot | In bot.py::MainThread(16840), line 487 in reconnect_voice_client: Reconnecting voice client on "Bot Dev" to "General"
+[311.1255848407745361] 2018-06-09 12:18:14,375 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 504 in reconnect_voice_client: (reconnect_voice_client) Disconnecting
+[311.1255848407745361] 2018-06-09 12:18:14,375 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 512 in reconnect_voice_client: (reconnect_voice_client) Sleeping for 0.1
+[311.2263152599334717] 2018-06-09 12:18:14,476 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 516 in reconnect_voice_client: (reconnect_voice_client) Getting voice client
+[311.2263152599334717] 2018-06-09 12:18:14,476 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 523 in reconnect_voice_client: (reconnect_voice_client) Swapping voice client
+[311.2263152599334717] 2018-06-09 12:18:14,476 - DEBUG - musicbot.bot | In bot.py::MainThread(16840), line 531 in reconnect_voice_client: Reconnected voice client on "Bot Dev" to "General"
+[315.2166402339935303] 2018-06-09 12:18:18,466 - DEBUG - musicbot.player | In player.py::MainThread(16840), line 383 in websocket_check: Voice websocket for "Bot Dev" is CLOSED, reconnecting
+[315.2166402339935303] 2018-06-09 12:18:18,466 - DEBUG - musicbot.bot | In bot.py::MainThread(16840), line 487 in reconnect_voice_client: Reconnecting voice client on "Bot Dev" to "General"
+[315.2166402339935303] 2018-06-09 12:18:18,466 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 504 in reconnect_voice_client: (reconnect_voice_client) Disconnecting
+[315.2166402339935303] 2018-06-09 12:18:18,466 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 512 in reconnect_voice_client: (reconnect_voice_client) Sleeping for 0.1
+[315.3173716068267822] 2018-06-09 12:18:18,567 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 516 in reconnect_voice_client: (reconnect_voice_client) Getting voice client
+[315.3173716068267822] 2018-06-09 12:18:18,567 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 523 in reconnect_voice_client: (reconnect_voice_client) Swapping voice client
+[315.3173716068267822] 2018-06-09 12:18:18,567 - DEBUG - musicbot.bot | In bot.py::MainThread(16840), line 531 in reconnect_voice_client: Reconnected voice client on "Bot Dev" to "General"
+[319.3210418224334717] 2018-06-09 12:18:22,570 - DEBUG - musicbot.player | In player.py::MainThread(16840), line 383 in websocket_check: Voice websocket for "Bot Dev" is CLOSED, reconnecting
+[319.3210418224334717] 2018-06-09 12:18:22,570 - DEBUG - musicbot.bot | In bot.py::MainThread(16840), line 487 in reconnect_voice_client: Reconnecting voice client on "Bot Dev" to "General"
+[319.3210418224334717] 2018-06-09 12:18:22,570 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 504 in reconnect_voice_client: (reconnect_voice_client) Disconnecting
+[319.3210418224334717] 2018-06-09 12:18:22,570 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 512 in reconnect_voice_client: (reconnect_voice_client) Sleeping for 0.1
+[319.4217696189880371] 2018-06-09 12:18:22,671 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 516 in reconnect_voice_client: (reconnect_voice_client) Getting voice client
+[319.4217696189880371] 2018-06-09 12:18:22,671 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 523 in reconnect_voice_client: (reconnect_voice_client) Swapping voice client
+[319.4217696189880371] 2018-06-09 12:18:22,671 - DEBUG - musicbot.bot | In bot.py::MainThread(16840), line 531 in reconnect_voice_client: Reconnected voice client on "Bot Dev" to "General"
+[323.4313371181488037] 2018-06-09 12:18:26,681 - DEBUG - musicbot.player | In player.py::MainThread(16840), line 383 in websocket_check: Voice websocket for "Bot Dev" is CLOSED, reconnecting
+[323.4313371181488037] 2018-06-09 12:18:26,681 - DEBUG - musicbot.bot | In bot.py::MainThread(16840), line 487 in reconnect_voice_client: Reconnecting voice client on "Bot Dev" to "General"
+[323.4313371181488037] 2018-06-09 12:18:26,681 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 504 in reconnect_voice_client: (reconnect_voice_client) Disconnecting
+[323.4313371181488037] 2018-06-09 12:18:26,681 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 512 in reconnect_voice_client: (reconnect_voice_client) Sleeping for 0.1
+[323.5181050300598145] 2018-06-09 12:18:26,767 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 516 in reconnect_voice_client: (reconnect_voice_client) Getting voice client
+[323.5181050300598145] 2018-06-09 12:18:26,767 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 523 in reconnect_voice_client: (reconnect_voice_client) Swapping voice client
+[323.5181050300598145] 2018-06-09 12:18:26,767 - DEBUG - musicbot.bot | In bot.py::MainThread(16840), line 531 in reconnect_voice_client: Reconnected voice client on "Bot Dev" to "General"
+[327.5213928222656250] 2018-06-09 12:18:30,771 - DEBUG - musicbot.player | In player.py::MainThread(16840), line 383 in websocket_check: Voice websocket for "Bot Dev" is CLOSED, reconnecting
+[327.5213928222656250] 2018-06-09 12:18:30,771 - DEBUG - musicbot.bot | In bot.py::MainThread(16840), line 487 in reconnect_voice_client: Reconnecting voice client on "Bot Dev" to "General"
+[327.5213928222656250] 2018-06-09 12:18:30,771 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 504 in reconnect_voice_client: (reconnect_voice_client) Disconnecting
+[327.5213928222656250] 2018-06-09 12:18:30,771 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 512 in reconnect_voice_client: (reconnect_voice_client) Sleeping for 0.1
+[327.6231200695037842] 2018-06-09 12:18:30,872 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 516 in reconnect_voice_client: (reconnect_voice_client) Getting voice client
+[327.6231200695037842] 2018-06-09 12:18:30,872 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 523 in reconnect_voice_client: (reconnect_voice_client) Swapping voice client
+[327.6231200695037842] 2018-06-09 12:18:30,872 - DEBUG - musicbot.bot | In bot.py::MainThread(16840), line 531 in reconnect_voice_client: Reconnected voice client on "Bot Dev" to "General"
+[331.6213135719299316] 2018-06-09 12:18:34,871 - DEBUG - musicbot.player | In player.py::MainThread(16840), line 383 in websocket_check: Voice websocket for "Bot Dev" is CLOSED, reconnecting
+[331.6213135719299316] 2018-06-09 12:18:34,871 - DEBUG - musicbot.bot | In bot.py::MainThread(16840), line 487 in reconnect_voice_client: Reconnecting voice client on "Bot Dev" to "General"
+[331.6213135719299316] 2018-06-09 12:18:34,871 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 504 in reconnect_voice_client: (reconnect_voice_client) Disconnecting
+[331.6213135719299316] 2018-06-09 12:18:34,871 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 512 in reconnect_voice_client: (reconnect_voice_client) Sleeping for 0.1
+[331.7220430374145508] 2018-06-09 12:18:34,971 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 516 in reconnect_voice_client: (reconnect_voice_client) Getting voice client
+[331.7220430374145508] 2018-06-09 12:18:34,971 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 523 in reconnect_voice_client: (reconnect_voice_client) Swapping voice client
+[331.7220430374145508] 2018-06-09 12:18:34,971 - DEBUG - musicbot.bot | In bot.py::MainThread(16840), line 531 in reconnect_voice_client: Reconnected voice client on "Bot Dev" to "General"
+[335.7302362918853760] 2018-06-09 12:18:38,979 - DEBUG - musicbot.player | In player.py::MainThread(16840), line 383 in websocket_check: Voice websocket for "Bot Dev" is CLOSED, reconnecting
+[335.7302362918853760] 2018-06-09 12:18:38,979 - DEBUG - musicbot.bot | In bot.py::MainThread(16840), line 487 in reconnect_voice_client: Reconnecting voice client on "Bot Dev" to "General"
+[335.7302362918853760] 2018-06-09 12:18:38,979 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 504 in reconnect_voice_client: (reconnect_voice_client) Disconnecting
+[335.7302362918853760] 2018-06-09 12:18:38,979 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 512 in reconnect_voice_client: (reconnect_voice_client) Sleeping for 0.1
+[335.8309671878814697] 2018-06-09 12:18:39,080 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 516 in reconnect_voice_client: (reconnect_voice_client) Getting voice client
+[335.8309671878814697] 2018-06-09 12:18:39,080 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 523 in reconnect_voice_client: (reconnect_voice_client) Swapping voice client
+[335.8309671878814697] 2018-06-09 12:18:39,080 - DEBUG - musicbot.bot | In bot.py::MainThread(16840), line 531 in reconnect_voice_client: Reconnected voice client on "Bot Dev" to "General"
+[339.8337297439575195] 2018-06-09 12:18:43,083 - DEBUG - musicbot.player | In player.py::MainThread(16840), line 383 in websocket_check: Voice websocket for "Bot Dev" is CLOSED, reconnecting
+[339.8337297439575195] 2018-06-09 12:18:43,083 - DEBUG - musicbot.bot | In bot.py::MainThread(16840), line 487 in reconnect_voice_client: Reconnecting voice client on "Bot Dev" to "General"
+[339.8337297439575195] 2018-06-09 12:18:43,083 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 504 in reconnect_voice_client: (reconnect_voice_client) Disconnecting
+[339.8337297439575195] 2018-06-09 12:18:43,083 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 512 in reconnect_voice_client: (reconnect_voice_client) Sleeping for 0.1
+[339.9294734001159668] 2018-06-09 12:18:43,179 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 516 in reconnect_voice_client: (reconnect_voice_client) Getting voice client
+[339.9294734001159668] 2018-06-09 12:18:43,179 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 523 in reconnect_voice_client: (reconnect_voice_client) Swapping voice client
+[339.9294734001159668] 2018-06-09 12:18:43,179 - DEBUG - musicbot.bot | In bot.py::MainThread(16840), line 531 in reconnect_voice_client: Reconnected voice client on "Bot Dev" to "General"
+[343.9314854145050049] 2018-06-09 12:18:47,181 - DEBUG - musicbot.player | In player.py::MainThread(16840), line 383 in websocket_check: Voice websocket for "Bot Dev" is CLOSED, reconnecting
+[343.9314854145050049] 2018-06-09 12:18:47,181 - DEBUG - musicbot.bot | In bot.py::MainThread(16840), line 487 in reconnect_voice_client: Reconnecting voice client on "Bot Dev" to "General"
+[343.9314854145050049] 2018-06-09 12:18:47,181 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 504 in reconnect_voice_client: (reconnect_voice_client) Disconnecting
+[343.9314854145050049] 2018-06-09 12:18:47,181 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 512 in reconnect_voice_client: (reconnect_voice_client) Sleeping for 0.1
+[344.0322751998901367] 2018-06-09 12:18:47,282 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 516 in reconnect_voice_client: (reconnect_voice_client) Getting voice client
+[344.0322751998901367] 2018-06-09 12:18:47,282 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 523 in reconnect_voice_client: (reconnect_voice_client) Swapping voice client
+[344.0322751998901367] 2018-06-09 12:18:47,282 - DEBUG - musicbot.bot | In bot.py::MainThread(16840), line 531 in reconnect_voice_client: Reconnected voice client on "Bot Dev" to "General"
+[348.0338997840881348] 2018-06-09 12:18:51,283 - DEBUG - musicbot.player | In player.py::MainThread(16840), line 383 in websocket_check: Voice websocket for "Bot Dev" is CLOSED, reconnecting
+[348.0338997840881348] 2018-06-09 12:18:51,283 - DEBUG - musicbot.bot | In bot.py::MainThread(16840), line 487 in reconnect_voice_client: Reconnecting voice client on "Bot Dev" to "General"
+[348.0338997840881348] 2018-06-09 12:18:51,283 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 504 in reconnect_voice_client: (reconnect_voice_client) Disconnecting
+[348.0338997840881348] 2018-06-09 12:18:51,283 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 512 in reconnect_voice_client: (reconnect_voice_client) Sleeping for 0.1
+[348.1346311569213867] 2018-06-09 12:18:51,384 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 516 in reconnect_voice_client: (reconnect_voice_client) Getting voice client
+[348.1346311569213867] 2018-06-09 12:18:51,384 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 523 in reconnect_voice_client: (reconnect_voice_client) Swapping voice client
+[348.1346311569213867] 2018-06-09 12:18:51,384 - DEBUG - musicbot.bot | In bot.py::MainThread(16840), line 531 in reconnect_voice_client: Reconnected voice client on "Bot Dev" to "General"
+[352.1286826133728027] 2018-06-09 12:18:55,378 - DEBUG - musicbot.player | In player.py::MainThread(16840), line 383 in websocket_check: Voice websocket for "Bot Dev" is CLOSED, reconnecting
+[352.1286826133728027] 2018-06-09 12:18:55,378 - DEBUG - musicbot.bot | In bot.py::MainThread(16840), line 487 in reconnect_voice_client: Reconnecting voice client on "Bot Dev" to "General"
+[352.1286826133728027] 2018-06-09 12:18:55,378 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 504 in reconnect_voice_client: (reconnect_voice_client) Disconnecting
+[352.1286826133728027] 2018-06-09 12:18:55,378 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 512 in reconnect_voice_client: (reconnect_voice_client) Sleeping for 0.1
+[352.2293853759765625] 2018-06-09 12:18:55,479 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 516 in reconnect_voice_client: (reconnect_voice_client) Getting voice client
+[352.2293853759765625] 2018-06-09 12:18:55,479 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 523 in reconnect_voice_client: (reconnect_voice_client) Swapping voice client
+[352.2293853759765625] 2018-06-09 12:18:55,479 - DEBUG - musicbot.bot | In bot.py::MainThread(16840), line 531 in reconnect_voice_client: Reconnected voice client on "Bot Dev" to "General"
+[356.2343914508819580] 2018-06-09 12:18:59,484 - DEBUG - musicbot.player | In player.py::MainThread(16840), line 383 in websocket_check: Voice websocket for "Bot Dev" is CLOSED, reconnecting
+[356.2343914508819580] 2018-06-09 12:18:59,484 - DEBUG - musicbot.bot | In bot.py::MainThread(16840), line 487 in reconnect_voice_client: Reconnecting voice client on "Bot Dev" to "General"
+[356.2343914508819580] 2018-06-09 12:18:59,484 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 504 in reconnect_voice_client: (reconnect_voice_client) Disconnecting
+[356.2343914508819580] 2018-06-09 12:18:59,484 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 512 in reconnect_voice_client: (reconnect_voice_client) Sleeping for 0.1
+[356.3351442813873291] 2018-06-09 12:18:59,584 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 516 in reconnect_voice_client: (reconnect_voice_client) Getting voice client
+[356.3351442813873291] 2018-06-09 12:18:59,584 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 523 in reconnect_voice_client: (reconnect_voice_client) Swapping voice client
+[356.3351442813873291] 2018-06-09 12:18:59,584 - DEBUG - musicbot.bot | In bot.py::MainThread(16840), line 531 in reconnect_voice_client: Reconnected voice client on "Bot Dev" to "General"
+[360.3337693214416504] 2018-06-09 12:19:03,583 - DEBUG - musicbot.player | In player.py::MainThread(16840), line 383 in websocket_check: Voice websocket for "Bot Dev" is CLOSED, reconnecting
+[360.3337693214416504] 2018-06-09 12:19:03,583 - DEBUG - musicbot.bot | In bot.py::MainThread(16840), line 487 in reconnect_voice_client: Reconnecting voice client on "Bot Dev" to "General"
+[360.3337693214416504] 2018-06-09 12:19:03,583 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 504 in reconnect_voice_client: (reconnect_voice_client) Disconnecting
+[360.3337693214416504] 2018-06-09 12:19:03,583 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 512 in reconnect_voice_client: (reconnect_voice_client) Sleeping for 0.1
+[360.4344995021820068] 2018-06-09 12:19:03,684 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 516 in reconnect_voice_client: (reconnect_voice_client) Getting voice client
+[360.4344995021820068] 2018-06-09 12:19:03,684 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 523 in reconnect_voice_client: (reconnect_voice_client) Swapping voice client
+[360.4344995021820068] 2018-06-09 12:19:03,684 - DEBUG - musicbot.bot | In bot.py::MainThread(16840), line 531 in reconnect_voice_client: Reconnected voice client on "Bot Dev" to "General"
+[364.4412956237792969] 2018-06-09 12:19:07,691 - DEBUG - musicbot.player | In player.py::MainThread(16840), line 383 in websocket_check: Voice websocket for "Bot Dev" is CLOSED, reconnecting
+[364.4412956237792969] 2018-06-09 12:19:07,691 - DEBUG - musicbot.bot | In bot.py::MainThread(16840), line 487 in reconnect_voice_client: Reconnecting voice client on "Bot Dev" to "General"
+[364.4412956237792969] 2018-06-09 12:19:07,691 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 504 in reconnect_voice_client: (reconnect_voice_client) Disconnecting
+[364.4412956237792969] 2018-06-09 12:19:07,691 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 512 in reconnect_voice_client: (reconnect_voice_client) Sleeping for 0.1
+[364.5414977073669434] 2018-06-09 12:19:07,791 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 516 in reconnect_voice_client: (reconnect_voice_client) Getting voice client
+[364.5414977073669434] 2018-06-09 12:19:07,791 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 523 in reconnect_voice_client: (reconnect_voice_client) Swapping voice client
+[364.5414977073669434] 2018-06-09 12:19:07,791 - DEBUG - musicbot.bot | In bot.py::MainThread(16840), line 531 in reconnect_voice_client: Reconnected voice client on "Bot Dev" to "General"
+[368.5499675273895264] 2018-06-09 12:19:11,799 - DEBUG - musicbot.player | In player.py::MainThread(16840), line 383 in websocket_check: Voice websocket for "Bot Dev" is CLOSED, reconnecting
+[368.5499675273895264] 2018-06-09 12:19:11,799 - DEBUG - musicbot.bot | In bot.py::MainThread(16840), line 487 in reconnect_voice_client: Reconnecting voice client on "Bot Dev" to "General"
+[368.5499675273895264] 2018-06-09 12:19:11,799 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 504 in reconnect_voice_client: (reconnect_voice_client) Disconnecting
+[368.5499675273895264] 2018-06-09 12:19:11,799 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 512 in reconnect_voice_client: (reconnect_voice_client) Sleeping for 0.1
+[368.6516966819763184] 2018-06-09 12:19:11,901 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 516 in reconnect_voice_client: (reconnect_voice_client) Getting voice client
+[368.6516966819763184] 2018-06-09 12:19:11,901 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 523 in reconnect_voice_client: (reconnect_voice_client) Swapping voice client
+[368.6516966819763184] 2018-06-09 12:19:11,901 - DEBUG - musicbot.bot | In bot.py::MainThread(16840), line 531 in reconnect_voice_client: Reconnected voice client on "Bot Dev" to "General"
+[372.6520531177520752] 2018-06-09 12:19:15,901 - DEBUG - musicbot.player | In player.py::MainThread(16840), line 383 in websocket_check: Voice websocket for "Bot Dev" is CLOSED, reconnecting
+[372.6520531177520752] 2018-06-09 12:19:15,901 - DEBUG - musicbot.bot | In bot.py::MainThread(16840), line 487 in reconnect_voice_client: Reconnecting voice client on "Bot Dev" to "General"
+[372.6520531177520752] 2018-06-09 12:19:15,901 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 504 in reconnect_voice_client: (reconnect_voice_client) Disconnecting
+[372.6520531177520752] 2018-06-09 12:19:15,901 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 512 in reconnect_voice_client: (reconnect_voice_client) Sleeping for 0.1
+[372.7522256374359131] 2018-06-09 12:19:16,001 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 516 in reconnect_voice_client: (reconnect_voice_client) Getting voice client
+[372.7522256374359131] 2018-06-09 12:19:16,001 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 523 in reconnect_voice_client: (reconnect_voice_client) Swapping voice client
+[372.7522256374359131] 2018-06-09 12:19:16,001 - DEBUG - musicbot.bot | In bot.py::MainThread(16840), line 531 in reconnect_voice_client: Reconnected voice client on "Bot Dev" to "General"
+[373.1830728054046631] 2018-06-09 12:19:16,432 - INFO - musicbot.bot | In bot.py::MainThread(16840), line 2734 in on_message: 368792134645448704/tee#0151: *skip
+[373.1880605220794678] 2018-06-09 12:19:16,437 - DEBUG - musicbot.bot | In bot.py::MainThread(16840), line 825 in serialize_queue: Serializing queue for 377547112629403649
+[376.7569913864135742] 2018-06-09 12:19:20,006 - DEBUG - musicbot.player | In player.py::MainThread(16840), line 383 in websocket_check: Voice websocket for "Bot Dev" is CLOSED, reconnecting
+[376.7569913864135742] 2018-06-09 12:19:20,006 - DEBUG - musicbot.bot | In bot.py::MainThread(16840), line 487 in reconnect_voice_client: Reconnecting voice client on "Bot Dev" to "General"
+[376.7569913864135742] 2018-06-09 12:19:20,006 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 504 in reconnect_voice_client: (reconnect_voice_client) Disconnecting
+[376.7569913864135742] 2018-06-09 12:19:20,006 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 512 in reconnect_voice_client: (reconnect_voice_client) Sleeping for 0.1
+[376.8576991558074951] 2018-06-09 12:19:20,107 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 516 in reconnect_voice_client: (reconnect_voice_client) Getting voice client
+[376.8576991558074951] 2018-06-09 12:19:20,107 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 523 in reconnect_voice_client: (reconnect_voice_client) Swapping voice client
+[376.8576991558074951] 2018-06-09 12:19:20,107 - DEBUG - musicbot.bot | In bot.py::MainThread(16840), line 531 in reconnect_voice_client: Reconnected voice client on "Bot Dev" to "General"
+[380.8636527061462402] 2018-06-09 12:19:24,113 - DEBUG - musicbot.player | In player.py::MainThread(16840), line 383 in websocket_check: Voice websocket for "Bot Dev" is CLOSED, reconnecting
+[380.8636527061462402] 2018-06-09 12:19:24,113 - DEBUG - musicbot.bot | In bot.py::MainThread(16840), line 487 in reconnect_voice_client: Reconnecting voice client on "Bot Dev" to "General"
+[380.8636527061462402] 2018-06-09 12:19:24,113 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 504 in reconnect_voice_client: (reconnect_voice_client) Disconnecting
+[380.8636527061462402] 2018-06-09 12:19:24,113 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 512 in reconnect_voice_client: (reconnect_voice_client) Sleeping for 0.1
+[380.9638926982879639] 2018-06-09 12:19:24,213 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 516 in reconnect_voice_client: (reconnect_voice_client) Getting voice client
+[380.9638926982879639] 2018-06-09 12:19:24,213 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 523 in reconnect_voice_client: (reconnect_voice_client) Swapping voice client
+[380.9638926982879639] 2018-06-09 12:19:24,213 - DEBUG - musicbot.bot | In bot.py::MainThread(16840), line 531 in reconnect_voice_client: Reconnected voice client on "Bot Dev" to "General"
+[384.9750592708587646] 2018-06-09 12:19:28,224 - DEBUG - musicbot.player | In player.py::MainThread(16840), line 383 in websocket_check: Voice websocket for "Bot Dev" is CLOSED, reconnecting
+[384.9750592708587646] 2018-06-09 12:19:28,224 - DEBUG - musicbot.bot | In bot.py::MainThread(16840), line 487 in reconnect_voice_client: Reconnecting voice client on "Bot Dev" to "General"
+[384.9750592708587646] 2018-06-09 12:19:28,224 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 504 in reconnect_voice_client: (reconnect_voice_client) Disconnecting
+[384.9750592708587646] 2018-06-09 12:19:28,224 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 512 in reconnect_voice_client: (reconnect_voice_client) Sleeping for 0.1
+[385.0758190155029297] 2018-06-09 12:19:28,325 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 516 in reconnect_voice_client: (reconnect_voice_client) Getting voice client
+[385.0758190155029297] 2018-06-09 12:19:28,325 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 523 in reconnect_voice_client: (reconnect_voice_client) Swapping voice client
+[385.0758190155029297] 2018-06-09 12:19:28,325 - DEBUG - musicbot.bot | In bot.py::MainThread(16840), line 531 in reconnect_voice_client: Reconnected voice client on "Bot Dev" to "General"
+[389.0845956802368164] 2018-06-09 12:19:32,334 - DEBUG - musicbot.player | In player.py::MainThread(16840), line 383 in websocket_check: Voice websocket for "Bot Dev" is CLOSED, reconnecting
+[389.0845956802368164] 2018-06-09 12:19:32,334 - DEBUG - musicbot.bot | In bot.py::MainThread(16840), line 487 in reconnect_voice_client: Reconnecting voice client on "Bot Dev" to "General"
+[389.0845956802368164] 2018-06-09 12:19:32,334 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 504 in reconnect_voice_client: (reconnect_voice_client) Disconnecting
+[389.0845956802368164] 2018-06-09 12:19:32,334 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 512 in reconnect_voice_client: (reconnect_voice_client) Sleeping for 0.1
+[389.1853313446044922] 2018-06-09 12:19:32,435 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 516 in reconnect_voice_client: (reconnect_voice_client) Getting voice client
+[389.1853313446044922] 2018-06-09 12:19:32,435 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 523 in reconnect_voice_client: (reconnect_voice_client) Swapping voice client
+[389.1853313446044922] 2018-06-09 12:19:32,435 - DEBUG - musicbot.bot | In bot.py::MainThread(16840), line 531 in reconnect_voice_client: Reconnected voice client on "Bot Dev" to "General"
+[393.1970684528350830] 2018-06-09 12:19:36,446 - DEBUG - musicbot.player | In player.py::MainThread(16840), line 383 in websocket_check: Voice websocket for "Bot Dev" is CLOSED, reconnecting
+[393.1970684528350830] 2018-06-09 12:19:36,446 - DEBUG - musicbot.bot | In bot.py::MainThread(16840), line 487 in reconnect_voice_client: Reconnecting voice client on "Bot Dev" to "General"
+[393.1970684528350830] 2018-06-09 12:19:36,446 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 504 in reconnect_voice_client: (reconnect_voice_client) Disconnecting
+[393.1970684528350830] 2018-06-09 12:19:36,446 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 512 in reconnect_voice_client: (reconnect_voice_client) Sleeping for 0.1
+[393.2977888584136963] 2018-06-09 12:19:36,547 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 516 in reconnect_voice_client: (reconnect_voice_client) Getting voice client
+[393.2977888584136963] 2018-06-09 12:19:36,547 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 523 in reconnect_voice_client: (reconnect_voice_client) Swapping voice client
+[393.2977888584136963] 2018-06-09 12:19:36,547 - DEBUG - musicbot.bot | In bot.py::MainThread(16840), line 531 in reconnect_voice_client: Reconnected voice client on "Bot Dev" to "General"
+[397.3025248050689697] 2018-06-09 12:19:40,552 - DEBUG - musicbot.player | In player.py::MainThread(16840), line 383 in websocket_check: Voice websocket for "Bot Dev" is CLOSED, reconnecting
+[397.3025248050689697] 2018-06-09 12:19:40,552 - DEBUG - musicbot.bot | In bot.py::MainThread(16840), line 487 in reconnect_voice_client: Reconnecting voice client on "Bot Dev" to "General"
+[397.3025248050689697] 2018-06-09 12:19:40,552 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 504 in reconnect_voice_client: (reconnect_voice_client) Disconnecting
+[397.3025248050689697] 2018-06-09 12:19:40,552 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 512 in reconnect_voice_client: (reconnect_voice_client) Sleeping for 0.1
+[397.4032552242279053] 2018-06-09 12:19:40,653 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 516 in reconnect_voice_client: (reconnect_voice_client) Getting voice client
+[397.4032552242279053] 2018-06-09 12:19:40,653 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 523 in reconnect_voice_client: (reconnect_voice_client) Swapping voice client
+[397.4032552242279053] 2018-06-09 12:19:40,653 - DEBUG - musicbot.bot | In bot.py::MainThread(16840), line 531 in reconnect_voice_client: Reconnected voice client on "Bot Dev" to "General"
+[401.4130673408508301] 2018-06-09 12:19:44,662 - DEBUG - musicbot.player | In player.py::MainThread(16840), line 383 in websocket_check: Voice websocket for "Bot Dev" is CLOSED, reconnecting
+[401.4130673408508301] 2018-06-09 12:19:44,662 - DEBUG - musicbot.bot | In bot.py::MainThread(16840), line 487 in reconnect_voice_client: Reconnecting voice client on "Bot Dev" to "General"
+[401.4130673408508301] 2018-06-09 12:19:44,662 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 504 in reconnect_voice_client: (reconnect_voice_client) Disconnecting
+[401.4130673408508301] 2018-06-09 12:19:44,662 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 512 in reconnect_voice_client: (reconnect_voice_client) Sleeping for 0.1
+[401.5137982368469238] 2018-06-09 12:19:44,763 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 516 in reconnect_voice_client: (reconnect_voice_client) Getting voice client
+[401.5137982368469238] 2018-06-09 12:19:44,763 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 523 in reconnect_voice_client: (reconnect_voice_client) Swapping voice client
+[401.5137982368469238] 2018-06-09 12:19:44,763 - DEBUG - musicbot.bot | In bot.py::MainThread(16840), line 531 in reconnect_voice_client: Reconnected voice client on "Bot Dev" to "General"
+[405.5184223651885986] 2018-06-09 12:19:48,768 - DEBUG - musicbot.player | In player.py::MainThread(16840), line 383 in websocket_check: Voice websocket for "Bot Dev" is CLOSED, reconnecting
+[405.5184223651885986] 2018-06-09 12:19:48,768 - DEBUG - musicbot.bot | In bot.py::MainThread(16840), line 487 in reconnect_voice_client: Reconnecting voice client on "Bot Dev" to "General"
+[405.5184223651885986] 2018-06-09 12:19:48,768 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 504 in reconnect_voice_client: (reconnect_voice_client) Disconnecting
+[405.5184223651885986] 2018-06-09 12:19:48,768 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 512 in reconnect_voice_client: (reconnect_voice_client) Sleeping for 0.1
+[405.6201500892639160] 2018-06-09 12:19:48,869 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 516 in reconnect_voice_client: (reconnect_voice_client) Getting voice client
+[405.6201500892639160] 2018-06-09 12:19:48,869 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 523 in reconnect_voice_client: (reconnect_voice_client) Swapping voice client
+[405.6201500892639160] 2018-06-09 12:19:48,869 - DEBUG - musicbot.bot | In bot.py::MainThread(16840), line 531 in reconnect_voice_client: Reconnected voice client on "Bot Dev" to "General"
+[409.6248180866241455] 2018-06-09 12:19:52,874 - DEBUG - musicbot.player | In player.py::MainThread(16840), line 383 in websocket_check: Voice websocket for "Bot Dev" is CLOSED, reconnecting
+[409.6248180866241455] 2018-06-09 12:19:52,874 - DEBUG - musicbot.bot | In bot.py::MainThread(16840), line 487 in reconnect_voice_client: Reconnecting voice client on "Bot Dev" to "General"
+[409.6248180866241455] 2018-06-09 12:19:52,874 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 504 in reconnect_voice_client: (reconnect_voice_client) Disconnecting
+[409.6248180866241455] 2018-06-09 12:19:52,874 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 512 in reconnect_voice_client: (reconnect_voice_client) Sleeping for 0.1
+[409.7255716323852539] 2018-06-09 12:19:52,975 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 516 in reconnect_voice_client: (reconnect_voice_client) Getting voice client
+[409.7255716323852539] 2018-06-09 12:19:52,975 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 523 in reconnect_voice_client: (reconnect_voice_client) Swapping voice client
+[409.7255716323852539] 2018-06-09 12:19:52,975 - DEBUG - musicbot.bot | In bot.py::MainThread(16840), line 531 in reconnect_voice_client: Reconnected voice client on "Bot Dev" to "General"
+[411.6743230819702148] 2018-06-09 12:19:54,924 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 2929 in on_voice_state_update: Empty voice state update, likely a session id change
+[413.7241358757019043] 2018-06-09 12:19:56,973 - DEBUG - musicbot.player | In player.py::MainThread(16840), line 383 in websocket_check: Voice websocket for "Bot Dev" is CLOSED, reconnecting
+[413.7241358757019043] 2018-06-09 12:19:56,973 - DEBUG - musicbot.bot | In bot.py::MainThread(16840), line 487 in reconnect_voice_client: Reconnecting voice client on "Bot Dev" to "General"
+[413.7241358757019043] 2018-06-09 12:19:56,973 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 504 in reconnect_voice_client: (reconnect_voice_client) Disconnecting
+[413.7241358757019043] 2018-06-09 12:19:56,973 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 512 in reconnect_voice_client: (reconnect_voice_client) Sleeping for 0.1
+[413.8242671489715576] 2018-06-09 12:19:57,074 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 516 in reconnect_voice_client: (reconnect_voice_client) Getting voice client
+[413.8242671489715576] 2018-06-09 12:19:57,074 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 523 in reconnect_voice_client: (reconnect_voice_client) Swapping voice client
+[413.8242671489715576] 2018-06-09 12:19:57,074 - DEBUG - musicbot.bot | In bot.py::MainThread(16840), line 531 in reconnect_voice_client: Reconnected voice client on "Bot Dev" to "General"
+[417.0804996490478516] 2018-06-09 12:20:00,330 - INFO - musicbot.bot | In bot.py::MainThread(16840), line 2734 in on_message: 365840126938447872/Mr™★SecuPupps©#8028: *help
+[417.8334846496582031] 2018-06-09 12:20:01,083 - DEBUG - musicbot.player | In player.py::MainThread(16840), line 383 in websocket_check: Voice websocket for "Bot Dev" is CLOSED, reconnecting
+[417.8334846496582031] 2018-06-09 12:20:01,083 - DEBUG - musicbot.bot | In bot.py::MainThread(16840), line 487 in reconnect_voice_client: Reconnecting voice client on "Bot Dev" to "General"
+[417.8334846496582031] 2018-06-09 12:20:01,083 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 504 in reconnect_voice_client: (reconnect_voice_client) Disconnecting
+[417.8334846496582031] 2018-06-09 12:20:01,083 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 512 in reconnect_voice_client: (reconnect_voice_client) Sleeping for 0.1
+[417.9342155456542969] 2018-06-09 12:20:01,183 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 516 in reconnect_voice_client: (reconnect_voice_client) Getting voice client
+[417.9342155456542969] 2018-06-09 12:20:01,183 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 523 in reconnect_voice_client: (reconnect_voice_client) Swapping voice client
+[417.9342155456542969] 2018-06-09 12:20:01,183 - DEBUG - musicbot.bot | In bot.py::MainThread(16840), line 531 in reconnect_voice_client: Reconnected voice client on "Bot Dev" to "General"
+[421.9387791156768799] 2018-06-09 12:20:05,188 - DEBUG - musicbot.player | In player.py::MainThread(16840), line 383 in websocket_check: Voice websocket for "Bot Dev" is CLOSED, reconnecting
+[421.9387791156768799] 2018-06-09 12:20:05,188 - DEBUG - musicbot.bot | In bot.py::MainThread(16840), line 487 in reconnect_voice_client: Reconnecting voice client on "Bot Dev" to "General"
+[421.9387791156768799] 2018-06-09 12:20:05,188 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 504 in reconnect_voice_client: (reconnect_voice_client) Disconnecting
+[421.9396796226501465] 2018-06-09 12:20:05,189 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 512 in reconnect_voice_client: (reconnect_voice_client) Sleeping for 0.1
+[422.0405530929565430] 2018-06-09 12:20:05,290 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 516 in reconnect_voice_client: (reconnect_voice_client) Getting voice client
+[422.0405530929565430] 2018-06-09 12:20:05,290 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 523 in reconnect_voice_client: (reconnect_voice_client) Swapping voice client
+[422.0405530929565430] 2018-06-09 12:20:05,290 - DEBUG - musicbot.bot | In bot.py::MainThread(16840), line 531 in reconnect_voice_client: Reconnected voice client on "Bot Dev" to "General"
+[426.0273745059967041] 2018-06-09 12:20:09,277 - DEBUG - musicbot.player | In player.py::MainThread(16840), line 383 in websocket_check: Voice websocket for "Bot Dev" is CLOSED, reconnecting
+[426.0273745059967041] 2018-06-09 12:20:09,277 - DEBUG - musicbot.bot | In bot.py::MainThread(16840), line 487 in reconnect_voice_client: Reconnecting voice client on "Bot Dev" to "General"
+[426.0273745059967041] 2018-06-09 12:20:09,277 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 504 in reconnect_voice_client: (reconnect_voice_client) Disconnecting
+[426.0273745059967041] 2018-06-09 12:20:09,277 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 512 in reconnect_voice_client: (reconnect_voice_client) Sleeping for 0.1
+[426.1280989646911621] 2018-06-09 12:20:09,377 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 516 in reconnect_voice_client: (reconnect_voice_client) Getting voice client
+[426.1280989646911621] 2018-06-09 12:20:09,377 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 523 in reconnect_voice_client: (reconnect_voice_client) Swapping voice client
+[426.1280989646911621] 2018-06-09 12:20:09,377 - DEBUG - musicbot.bot | In bot.py::MainThread(16840), line 531 in reconnect_voice_client: Reconnected voice client on "Bot Dev" to "General"
+[430.1337668895721436] 2018-06-09 12:20:13,383 - DEBUG - musicbot.player | In player.py::MainThread(16840), line 383 in websocket_check: Voice websocket for "Bot Dev" is CLOSED, reconnecting
+[430.1337668895721436] 2018-06-09 12:20:13,383 - DEBUG - musicbot.bot | In bot.py::MainThread(16840), line 487 in reconnect_voice_client: Reconnecting voice client on "Bot Dev" to "General"
+[430.1337668895721436] 2018-06-09 12:20:13,383 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 504 in reconnect_voice_client: (reconnect_voice_client) Disconnecting
+[430.1337668895721436] 2018-06-09 12:20:13,383 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 512 in reconnect_voice_client: (reconnect_voice_client) Sleeping for 0.1
+[430.2344710826873779] 2018-06-09 12:20:13,484 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 516 in reconnect_voice_client: (reconnect_voice_client) Getting voice client
+[430.2344710826873779] 2018-06-09 12:20:13,484 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 523 in reconnect_voice_client: (reconnect_voice_client) Swapping voice client
+[430.2353239059448242] 2018-06-09 12:20:13,485 - DEBUG - musicbot.bot | In bot.py::MainThread(16840), line 531 in reconnect_voice_client: Reconnected voice client on "Bot Dev" to "General"
+[434.2425372600555420] 2018-06-09 12:20:17,492 - DEBUG - musicbot.player | In player.py::MainThread(16840), line 383 in websocket_check: Voice websocket for "Bot Dev" is CLOSED, reconnecting
+[434.2425372600555420] 2018-06-09 12:20:17,492 - DEBUG - musicbot.bot | In bot.py::MainThread(16840), line 487 in reconnect_voice_client: Reconnecting voice client on "Bot Dev" to "General"
+[434.2425372600555420] 2018-06-09 12:20:17,492 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 504 in reconnect_voice_client: (reconnect_voice_client) Disconnecting
+[434.2425372600555420] 2018-06-09 12:20:17,492 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 512 in reconnect_voice_client: (reconnect_voice_client) Sleeping for 0.1
+[434.3432776927947998] 2018-06-09 12:20:17,593 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 516 in reconnect_voice_client: (reconnect_voice_client) Getting voice client
+[434.3432776927947998] 2018-06-09 12:20:17,593 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 523 in reconnect_voice_client: (reconnect_voice_client) Swapping voice client
+[434.3442754745483398] 2018-06-09 12:20:17,594 - DEBUG - musicbot.bot | In bot.py::MainThread(16840), line 531 in reconnect_voice_client: Reconnected voice client on "Bot Dev" to "General"
+[438.3470532894134521] 2018-06-09 12:20:21,596 - DEBUG - musicbot.player | In player.py::MainThread(16840), line 383 in websocket_check: Voice websocket for "Bot Dev" is CLOSED, reconnecting
+[438.3470532894134521] 2018-06-09 12:20:21,596 - DEBUG - musicbot.bot | In bot.py::MainThread(16840), line 487 in reconnect_voice_client: Reconnecting voice client on "Bot Dev" to "General"
+[438.3470532894134521] 2018-06-09 12:20:21,596 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 504 in reconnect_voice_client: (reconnect_voice_client) Disconnecting
+[438.3480505943298340] 2018-06-09 12:20:21,597 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 512 in reconnect_voice_client: (reconnect_voice_client) Sleeping for 0.1
+[438.4489474296569824] 2018-06-09 12:20:21,698 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 516 in reconnect_voice_client: (reconnect_voice_client) Getting voice client
+[438.4489474296569824] 2018-06-09 12:20:21,698 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 523 in reconnect_voice_client: (reconnect_voice_client) Swapping voice client
+[438.4489474296569824] 2018-06-09 12:20:21,698 - DEBUG - musicbot.bot | In bot.py::MainThread(16840), line 531 in reconnect_voice_client: Reconnected voice client on "Bot Dev" to "General"
+[442.4625494480133057] 2018-06-09 12:20:25,712 - DEBUG - musicbot.player | In player.py::MainThread(16840), line 383 in websocket_check: Voice websocket for "Bot Dev" is CLOSED, reconnecting
+[442.4625494480133057] 2018-06-09 12:20:25,712 - DEBUG - musicbot.bot | In bot.py::MainThread(16840), line 487 in reconnect_voice_client: Reconnecting voice client on "Bot Dev" to "General"
+[442.4634912014007568] 2018-06-09 12:20:25,713 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 504 in reconnect_voice_client: (reconnect_voice_client) Disconnecting
+[442.4634912014007568] 2018-06-09 12:20:25,713 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 512 in reconnect_voice_client: (reconnect_voice_client) Sleeping for 0.1
+[442.5643401145935059] 2018-06-09 12:20:25,814 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 516 in reconnect_voice_client: (reconnect_voice_client) Getting voice client
+[442.5652205944061279] 2018-06-09 12:20:25,814 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 523 in reconnect_voice_client: (reconnect_voice_client) Swapping voice client
+[442.5652205944061279] 2018-06-09 12:20:25,814 - DEBUG - musicbot.bot | In bot.py::MainThread(16840), line 531 in reconnect_voice_client: Reconnected voice client on "Bot Dev" to "General"
+[446.5704109668731689] 2018-06-09 12:20:29,820 - DEBUG - musicbot.player | In player.py::MainThread(16840), line 383 in websocket_check: Voice websocket for "Bot Dev" is CLOSED, reconnecting
+[446.5704109668731689] 2018-06-09 12:20:29,820 - DEBUG - musicbot.bot | In bot.py::MainThread(16840), line 487 in reconnect_voice_client: Reconnecting voice client on "Bot Dev" to "General"
+[446.5714018344879150] 2018-06-09 12:20:29,821 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 504 in reconnect_voice_client: (reconnect_voice_client) Disconnecting
+[446.5714018344879150] 2018-06-09 12:20:29,821 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 512 in reconnect_voice_client: (reconnect_voice_client) Sleeping for 0.1
+[446.6882200241088867] 2018-06-09 12:20:29,937 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 516 in reconnect_voice_client: (reconnect_voice_client) Getting voice client
+[446.6890883445739746] 2018-06-09 12:20:29,938 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 523 in reconnect_voice_client: (reconnect_voice_client) Swapping voice client
+[446.6890883445739746] 2018-06-09 12:20:29,938 - DEBUG - musicbot.bot | In bot.py::MainThread(16840), line 531 in reconnect_voice_client: Reconnected voice client on "Bot Dev" to "General"
+[450.6829903125762939] 2018-06-09 12:20:33,932 - DEBUG - musicbot.player | In player.py::MainThread(16840), line 383 in websocket_check: Voice websocket for "Bot Dev" is CLOSED, reconnecting
+[450.6838927268981934] 2018-06-09 12:20:33,933 - DEBUG - musicbot.bot | In bot.py::MainThread(16840), line 487 in reconnect_voice_client: Reconnecting voice client on "Bot Dev" to "General"
+[450.6838927268981934] 2018-06-09 12:20:33,933 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 504 in reconnect_voice_client: (reconnect_voice_client) Disconnecting
+[450.6838927268981934] 2018-06-09 12:20:33,933 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 512 in reconnect_voice_client: (reconnect_voice_client) Sleeping for 0.1
+[450.7857298851013184] 2018-06-09 12:20:34,035 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 516 in reconnect_voice_client: (reconnect_voice_client) Getting voice client
+[450.7857298851013184] 2018-06-09 12:20:34,035 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 523 in reconnect_voice_client: (reconnect_voice_client) Swapping voice client
+[450.7865891456604004] 2018-06-09 12:20:34,036 - DEBUG - musicbot.bot | In bot.py::MainThread(16840), line 531 in reconnect_voice_client: Reconnected voice client on "Bot Dev" to "General"
+[454.7889332771301270] 2018-06-09 12:20:38,038 - DEBUG - musicbot.player | In player.py::MainThread(16840), line 383 in websocket_check: Voice websocket for "Bot Dev" is CLOSED, reconnecting
+[454.7889332771301270] 2018-06-09 12:20:38,038 - DEBUG - musicbot.bot | In bot.py::MainThread(16840), line 487 in reconnect_voice_client: Reconnecting voice client on "Bot Dev" to "General"
+[454.7899291515350342] 2018-06-09 12:20:38,039 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 504 in reconnect_voice_client: (reconnect_voice_client) Disconnecting
+[454.7899291515350342] 2018-06-09 12:20:38,039 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 512 in reconnect_voice_client: (reconnect_voice_client) Sleeping for 0.1
+[454.8906574249267578] 2018-06-09 12:20:38,140 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 516 in reconnect_voice_client: (reconnect_voice_client) Getting voice client
+[454.8906574249267578] 2018-06-09 12:20:38,140 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 523 in reconnect_voice_client: (reconnect_voice_client) Swapping voice client
+[454.8906574249267578] 2018-06-09 12:20:38,140 - DEBUG - musicbot.bot | In bot.py::MainThread(16840), line 531 in reconnect_voice_client: Reconnected voice client on "Bot Dev" to "General"
+[458.8919231891632080] 2018-06-09 12:20:42,141 - DEBUG - musicbot.player | In player.py::MainThread(16840), line 383 in websocket_check: Voice websocket for "Bot Dev" is CLOSED, reconnecting
+[458.8919231891632080] 2018-06-09 12:20:42,141 - DEBUG - musicbot.bot | In bot.py::MainThread(16840), line 487 in reconnect_voice_client: Reconnecting voice client on "Bot Dev" to "General"
+[458.8929300308227539] 2018-06-09 12:20:42,142 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 504 in reconnect_voice_client: (reconnect_voice_client) Disconnecting
+[458.8929300308227539] 2018-06-09 12:20:42,142 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 512 in reconnect_voice_client: (reconnect_voice_client) Sleeping for 0.1
+[458.9936165809631348] 2018-06-09 12:20:42,243 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 516 in reconnect_voice_client: (reconnect_voice_client) Getting voice client
+[458.9946608543395996] 2018-06-09 12:20:42,244 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 523 in reconnect_voice_client: (reconnect_voice_client) Swapping voice client
+[458.9946608543395996] 2018-06-09 12:20:42,244 - DEBUG - musicbot.bot | In bot.py::MainThread(16840), line 531 in reconnect_voice_client: Reconnected voice client on "Bot Dev" to "General"
+[462.9976456165313721] 2018-06-09 12:20:46,247 - DEBUG - musicbot.player | In player.py::MainThread(16840), line 383 in websocket_check: Voice websocket for "Bot Dev" is CLOSED, reconnecting
+[462.9976456165313721] 2018-06-09 12:20:46,247 - DEBUG - musicbot.bot | In bot.py::MainThread(16840), line 487 in reconnect_voice_client: Reconnecting voice client on "Bot Dev" to "General"
+[462.9976456165313721] 2018-06-09 12:20:46,247 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 504 in reconnect_voice_client: (reconnect_voice_client) Disconnecting
+[462.9976456165313721] 2018-06-09 12:20:46,247 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 512 in reconnect_voice_client: (reconnect_voice_client) Sleeping for 0.1
+[463.0985331535339355] 2018-06-09 12:20:46,348 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 516 in reconnect_voice_client: (reconnect_voice_client) Getting voice client
+[463.0985331535339355] 2018-06-09 12:20:46,348 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 523 in reconnect_voice_client: (reconnect_voice_client) Swapping voice client
+[463.0993645191192627] 2018-06-09 12:20:46,349 - DEBUG - musicbot.bot | In bot.py::MainThread(16840), line 531 in reconnect_voice_client: Reconnected voice client on "Bot Dev" to "General"
+[467.0901846885681152] 2018-06-09 12:20:50,339 - DEBUG - musicbot.player | In player.py::MainThread(16840), line 383 in websocket_check: Voice websocket for "Bot Dev" is CLOSED, reconnecting
+[467.0901846885681152] 2018-06-09 12:20:50,339 - DEBUG - musicbot.bot | In bot.py::MainThread(16840), line 487 in reconnect_voice_client: Reconnecting voice client on "Bot Dev" to "General"
+[467.0901846885681152] 2018-06-09 12:20:50,339 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 504 in reconnect_voice_client: (reconnect_voice_client) Disconnecting
+[467.0901846885681152] 2018-06-09 12:20:50,339 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 512 in reconnect_voice_client: (reconnect_voice_client) Sleeping for 0.1
+[467.1921296119689941] 2018-06-09 12:20:50,441 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 516 in reconnect_voice_client: (reconnect_voice_client) Getting voice client
+[467.1921296119689941] 2018-06-09 12:20:50,441 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 523 in reconnect_voice_client: (reconnect_voice_client) Swapping voice client
+[467.1921296119689941] 2018-06-09 12:20:50,441 - DEBUG - musicbot.bot | In bot.py::MainThread(16840), line 531 in reconnect_voice_client: Reconnected voice client on "Bot Dev" to "General"
+[471.1949050426483154] 2018-06-09 12:20:54,444 - DEBUG - musicbot.player | In player.py::MainThread(16840), line 383 in websocket_check: Voice websocket for "Bot Dev" is CLOSED, reconnecting
+[471.1958088874816895] 2018-06-09 12:20:54,445 - DEBUG - musicbot.bot | In bot.py::MainThread(16840), line 487 in reconnect_voice_client: Reconnecting voice client on "Bot Dev" to "General"
+[471.1958088874816895] 2018-06-09 12:20:54,445 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 504 in reconnect_voice_client: (reconnect_voice_client) Disconnecting
+[471.1958088874816895] 2018-06-09 12:20:54,445 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 512 in reconnect_voice_client: (reconnect_voice_client) Sleeping for 0.1
+[471.2976052761077881] 2018-06-09 12:20:54,547 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 516 in reconnect_voice_client: (reconnect_voice_client) Getting voice client
+[471.2976052761077881] 2018-06-09 12:20:54,547 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 523 in reconnect_voice_client: (reconnect_voice_client) Swapping voice client
+[471.2976052761077881] 2018-06-09 12:20:54,547 - DEBUG - musicbot.bot | In bot.py::MainThread(16840), line 531 in reconnect_voice_client: Reconnected voice client on "Bot Dev" to "General"
+[475.2970046997070312] 2018-06-09 12:20:58,546 - DEBUG - musicbot.player | In player.py::MainThread(16840), line 383 in websocket_check: Voice websocket for "Bot Dev" is CLOSED, reconnecting
+[475.2978978157043457] 2018-06-09 12:20:58,547 - DEBUG - musicbot.bot | In bot.py::MainThread(16840), line 487 in reconnect_voice_client: Reconnecting voice client on "Bot Dev" to "General"
+[475.2978978157043457] 2018-06-09 12:20:58,547 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 504 in reconnect_voice_client: (reconnect_voice_client) Disconnecting
+[475.2978978157043457] 2018-06-09 12:20:58,547 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 512 in reconnect_voice_client: (reconnect_voice_client) Sleeping for 0.1
+[475.3996214866638184] 2018-06-09 12:20:58,649 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 516 in reconnect_voice_client: (reconnect_voice_client) Getting voice client
+[475.3996214866638184] 2018-06-09 12:20:58,649 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 523 in reconnect_voice_client: (reconnect_voice_client) Swapping voice client
+[475.3996214866638184] 2018-06-09 12:20:58,649 - DEBUG - musicbot.bot | In bot.py::MainThread(16840), line 531 in reconnect_voice_client: Reconnected voice client on "Bot Dev" to "General"
+[479.3974206447601318] 2018-06-09 12:21:02,647 - DEBUG - musicbot.player | In player.py::MainThread(16840), line 383 in websocket_check: Voice websocket for "Bot Dev" is CLOSED, reconnecting
+[479.3983333110809326] 2018-06-09 12:21:02,648 - DEBUG - musicbot.bot | In bot.py::MainThread(16840), line 487 in reconnect_voice_client: Reconnecting voice client on "Bot Dev" to "General"
+[479.3983333110809326] 2018-06-09 12:21:02,648 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 504 in reconnect_voice_client: (reconnect_voice_client) Disconnecting
+[479.3983333110809326] 2018-06-09 12:21:02,648 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 512 in reconnect_voice_client: (reconnect_voice_client) Sleeping for 0.1
+[479.4990630149841309] 2018-06-09 12:21:02,748 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 516 in reconnect_voice_client: (reconnect_voice_client) Getting voice client
+[479.5000150203704834] 2018-06-09 12:21:02,749 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 523 in reconnect_voice_client: (reconnect_voice_client) Swapping voice client
+[479.5010414123535156] 2018-06-09 12:21:02,750 - DEBUG - musicbot.bot | In bot.py::MainThread(16840), line 531 in reconnect_voice_client: Reconnected voice client on "Bot Dev" to "General"
+[483.4958314895629883] 2018-06-09 12:21:06,745 - DEBUG - musicbot.player | In player.py::MainThread(16840), line 383 in websocket_check: Voice websocket for "Bot Dev" is CLOSED, reconnecting
+[483.4958314895629883] 2018-06-09 12:21:06,745 - DEBUG - musicbot.bot | In bot.py::MainThread(16840), line 487 in reconnect_voice_client: Reconnecting voice client on "Bot Dev" to "General"
+[483.4968292713165283] 2018-06-09 12:21:06,746 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 504 in reconnect_voice_client: (reconnect_voice_client) Disconnecting
+[483.4968292713165283] 2018-06-09 12:21:06,746 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 512 in reconnect_voice_client: (reconnect_voice_client) Sleeping for 0.1
+[483.5977189540863037] 2018-06-09 12:21:06,847 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 516 in reconnect_voice_client: (reconnect_voice_client) Getting voice client
+[483.5977189540863037] 2018-06-09 12:21:06,847 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 523 in reconnect_voice_client: (reconnect_voice_client) Swapping voice client
+[483.5977189540863037] 2018-06-09 12:21:06,847 - DEBUG - musicbot.bot | In bot.py::MainThread(16840), line 531 in reconnect_voice_client: Reconnected voice client on "Bot Dev" to "General"
+[487.6013212203979492] 2018-06-09 12:21:10,851 - DEBUG - musicbot.player | In player.py::MainThread(16840), line 383 in websocket_check: Voice websocket for "Bot Dev" is CLOSED, reconnecting
+[487.6013212203979492] 2018-06-09 12:21:10,851 - DEBUG - musicbot.bot | In bot.py::MainThread(16840), line 487 in reconnect_voice_client: Reconnecting voice client on "Bot Dev" to "General"
+[487.6013212203979492] 2018-06-09 12:21:10,851 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 504 in reconnect_voice_client: (reconnect_voice_client) Disconnecting
+[487.6013212203979492] 2018-06-09 12:21:10,851 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 512 in reconnect_voice_client: (reconnect_voice_client) Sleeping for 0.1
+[487.7020199298858643] 2018-06-09 12:21:10,951 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 516 in reconnect_voice_client: (reconnect_voice_client) Getting voice client
+[487.7020199298858643] 2018-06-09 12:21:10,951 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 523 in reconnect_voice_client: (reconnect_voice_client) Swapping voice client
+[487.7020199298858643] 2018-06-09 12:21:10,951 - DEBUG - musicbot.bot | In bot.py::MainThread(16840), line 531 in reconnect_voice_client: Reconnected voice client on "Bot Dev" to "General"
+[491.7062587738037109] 2018-06-09 12:21:14,956 - DEBUG - musicbot.player | In player.py::MainThread(16840), line 383 in websocket_check: Voice websocket for "Bot Dev" is CLOSED, reconnecting
+[491.7062587738037109] 2018-06-09 12:21:14,956 - DEBUG - musicbot.bot | In bot.py::MainThread(16840), line 487 in reconnect_voice_client: Reconnecting voice client on "Bot Dev" to "General"
+[491.7062587738037109] 2018-06-09 12:21:14,956 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 504 in reconnect_voice_client: (reconnect_voice_client) Disconnecting
+[491.7062587738037109] 2018-06-09 12:21:14,956 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 512 in reconnect_voice_client: (reconnect_voice_client) Sleeping for 0.1
+[491.8065011501312256] 2018-06-09 12:21:15,056 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 516 in reconnect_voice_client: (reconnect_voice_client) Getting voice client
+[491.8065011501312256] 2018-06-09 12:21:15,056 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 523 in reconnect_voice_client: (reconnect_voice_client) Swapping voice client
+[491.8065011501312256] 2018-06-09 12:21:15,056 - DEBUG - musicbot.bot | In bot.py::MainThread(16840), line 531 in reconnect_voice_client: Reconnected voice client on "Bot Dev" to "General"
+[495.7983300685882568] 2018-06-09 12:21:19,048 - DEBUG - musicbot.player | In player.py::MainThread(16840), line 383 in websocket_check: Voice websocket for "Bot Dev" is CLOSED, reconnecting
+[495.7983300685882568] 2018-06-09 12:21:19,048 - DEBUG - musicbot.bot | In bot.py::MainThread(16840), line 487 in reconnect_voice_client: Reconnecting voice client on "Bot Dev" to "General"
+[495.7983300685882568] 2018-06-09 12:21:19,048 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 504 in reconnect_voice_client: (reconnect_voice_client) Disconnecting
+[495.7983300685882568] 2018-06-09 12:21:19,048 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 512 in reconnect_voice_client: (reconnect_voice_client) Sleeping for 0.1
+[495.8990604877471924] 2018-06-09 12:21:19,148 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 516 in reconnect_voice_client: (reconnect_voice_client) Getting voice client
+[495.8990604877471924] 2018-06-09 12:21:19,148 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 523 in reconnect_voice_client: (reconnect_voice_client) Swapping voice client
+[495.8990604877471924] 2018-06-09 12:21:19,148 - DEBUG - musicbot.bot | In bot.py::MainThread(16840), line 531 in reconnect_voice_client: Reconnected voice client on "Bot Dev" to "General"
+[499.8971030712127686] 2018-06-09 12:21:23,146 - DEBUG - musicbot.player | In player.py::MainThread(16840), line 383 in websocket_check: Voice websocket for "Bot Dev" is CLOSED, reconnecting
+[499.8971030712127686] 2018-06-09 12:21:23,146 - DEBUG - musicbot.bot | In bot.py::MainThread(16840), line 487 in reconnect_voice_client: Reconnecting voice client on "Bot Dev" to "General"
+[499.8971030712127686] 2018-06-09 12:21:23,146 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 504 in reconnect_voice_client: (reconnect_voice_client) Disconnecting
+[499.8971030712127686] 2018-06-09 12:21:23,146 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 512 in reconnect_voice_client: (reconnect_voice_client) Sleeping for 0.1
+[499.9973430633544922] 2018-06-09 12:21:23,247 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 516 in reconnect_voice_client: (reconnect_voice_client) Getting voice client
+[499.9973430633544922] 2018-06-09 12:21:23,247 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 523 in reconnect_voice_client: (reconnect_voice_client) Swapping voice client
+[499.9973430633544922] 2018-06-09 12:21:23,247 - DEBUG - musicbot.bot | In bot.py::MainThread(16840), line 531 in reconnect_voice_client: Reconnected voice client on "Bot Dev" to "General"
+[504.0001153945922852] 2018-06-09 12:21:27,249 - DEBUG - musicbot.player | In player.py::MainThread(16840), line 383 in websocket_check: Voice websocket for "Bot Dev" is CLOSED, reconnecting
+[504.0001153945922852] 2018-06-09 12:21:27,249 - DEBUG - musicbot.bot | In bot.py::MainThread(16840), line 487 in reconnect_voice_client: Reconnecting voice client on "Bot Dev" to "General"
+[504.0001153945922852] 2018-06-09 12:21:27,249 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 504 in reconnect_voice_client: (reconnect_voice_client) Disconnecting
+[504.0001153945922852] 2018-06-09 12:21:27,249 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 512 in reconnect_voice_client: (reconnect_voice_client) Sleeping for 0.1
+[504.1008458137512207] 2018-06-09 12:21:27,350 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 516 in reconnect_voice_client: (reconnect_voice_client) Getting voice client
+[504.1008458137512207] 2018-06-09 12:21:27,350 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 523 in reconnect_voice_client: (reconnect_voice_client) Swapping voice client
+[504.1008458137512207] 2018-06-09 12:21:27,350 - DEBUG - musicbot.bot | In bot.py::MainThread(16840), line 531 in reconnect_voice_client: Reconnected voice client on "Bot Dev" to "General"
+[508.1008417606353760] 2018-06-09 12:21:31,350 - DEBUG - musicbot.player | In player.py::MainThread(16840), line 383 in websocket_check: Voice websocket for "Bot Dev" is CLOSED, reconnecting
+[508.1008417606353760] 2018-06-09 12:21:31,350 - DEBUG - musicbot.bot | In bot.py::MainThread(16840), line 487 in reconnect_voice_client: Reconnecting voice client on "Bot Dev" to "General"
+[508.1008417606353760] 2018-06-09 12:21:31,350 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 504 in reconnect_voice_client: (reconnect_voice_client) Disconnecting
+[508.1008417606353760] 2018-06-09 12:21:31,350 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 512 in reconnect_voice_client: (reconnect_voice_client) Sleeping for 0.1
+[508.2015721797943115] 2018-06-09 12:21:31,451 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 516 in reconnect_voice_client: (reconnect_voice_client) Getting voice client
+[508.2015721797943115] 2018-06-09 12:21:31,451 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 523 in reconnect_voice_client: (reconnect_voice_client) Swapping voice client
+[508.2015721797943115] 2018-06-09 12:21:31,451 - DEBUG - musicbot.bot | In bot.py::MainThread(16840), line 531 in reconnect_voice_client: Reconnected voice client on "Bot Dev" to "General"
+[512.2129108905792236] 2018-06-09 12:21:35,462 - DEBUG - musicbot.player | In player.py::MainThread(16840), line 383 in websocket_check: Voice websocket for "Bot Dev" is CLOSED, reconnecting
+[512.2129108905792236] 2018-06-09 12:21:35,462 - DEBUG - musicbot.bot | In bot.py::MainThread(16840), line 487 in reconnect_voice_client: Reconnecting voice client on "Bot Dev" to "General"
+[512.2129108905792236] 2018-06-09 12:21:35,462 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 504 in reconnect_voice_client: (reconnect_voice_client) Disconnecting
+[512.2129108905792236] 2018-06-09 12:21:35,462 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 512 in reconnect_voice_client: (reconnect_voice_client) Sleeping for 0.1
+[512.3136413097381592] 2018-06-09 12:21:35,563 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 516 in reconnect_voice_client: (reconnect_voice_client) Getting voice client
+[512.3136413097381592] 2018-06-09 12:21:35,563 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 523 in reconnect_voice_client: (reconnect_voice_client) Swapping voice client
+[512.3136413097381592] 2018-06-09 12:21:35,563 - DEBUG - musicbot.bot | In bot.py::MainThread(16840), line 531 in reconnect_voice_client: Reconnected voice client on "Bot Dev" to "General"
+[516.3172936439514160] 2018-06-09 12:21:39,567 - DEBUG - musicbot.player | In player.py::MainThread(16840), line 383 in websocket_check: Voice websocket for "Bot Dev" is CLOSED, reconnecting
+[516.3172936439514160] 2018-06-09 12:21:39,567 - DEBUG - musicbot.bot | In bot.py::MainThread(16840), line 487 in reconnect_voice_client: Reconnecting voice client on "Bot Dev" to "General"
+[516.3172936439514160] 2018-06-09 12:21:39,567 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 504 in reconnect_voice_client: (reconnect_voice_client) Disconnecting
+[516.3172936439514160] 2018-06-09 12:21:39,567 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 512 in reconnect_voice_client: (reconnect_voice_client) Sleeping for 0.1
+[516.4180245399475098] 2018-06-09 12:21:39,667 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 516 in reconnect_voice_client: (reconnect_voice_client) Getting voice client
+[516.4180245399475098] 2018-06-09 12:21:39,667 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 523 in reconnect_voice_client: (reconnect_voice_client) Swapping voice client
+[516.4180245399475098] 2018-06-09 12:21:39,667 - DEBUG - musicbot.bot | In bot.py::MainThread(16840), line 531 in reconnect_voice_client: Reconnected voice client on "Bot Dev" to "General"
+[520.4227139949798584] 2018-06-09 12:21:43,672 - DEBUG - musicbot.player | In player.py::MainThread(16840), line 383 in websocket_check: Voice websocket for "Bot Dev" is CLOSED, reconnecting
+[520.4227139949798584] 2018-06-09 12:21:43,672 - DEBUG - musicbot.bot | In bot.py::MainThread(16840), line 487 in reconnect_voice_client: Reconnecting voice client on "Bot Dev" to "General"
+[520.4227139949798584] 2018-06-09 12:21:43,672 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 504 in reconnect_voice_client: (reconnect_voice_client) Disconnecting
+[520.4227139949798584] 2018-06-09 12:21:43,672 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 512 in reconnect_voice_client: (reconnect_voice_client) Sleeping for 0.1
+[520.5234458446502686] 2018-06-09 12:21:43,773 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 516 in reconnect_voice_client: (reconnect_voice_client) Getting voice client
+[520.5234458446502686] 2018-06-09 12:21:43,773 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 523 in reconnect_voice_client: (reconnect_voice_client) Swapping voice client
+[520.5234458446502686] 2018-06-09 12:21:43,773 - DEBUG - musicbot.bot | In bot.py::MainThread(16840), line 531 in reconnect_voice_client: Reconnected voice client on "Bot Dev" to "General"
+[524.5230426788330078] 2018-06-09 12:21:47,772 - DEBUG - musicbot.player | In player.py::MainThread(16840), line 383 in websocket_check: Voice websocket for "Bot Dev" is CLOSED, reconnecting
+[524.5230426788330078] 2018-06-09 12:21:47,772 - DEBUG - musicbot.bot | In bot.py::MainThread(16840), line 487 in reconnect_voice_client: Reconnecting voice client on "Bot Dev" to "General"
+[524.5230426788330078] 2018-06-09 12:21:47,772 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 504 in reconnect_voice_client: (reconnect_voice_client) Disconnecting
+[524.5230426788330078] 2018-06-09 12:21:47,772 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 512 in reconnect_voice_client: (reconnect_voice_client) Sleeping for 0.1
+[524.6232805252075195] 2018-06-09 12:21:47,873 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 516 in reconnect_voice_client: (reconnect_voice_client) Getting voice client
+[524.6232805252075195] 2018-06-09 12:21:47,873 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 523 in reconnect_voice_client: (reconnect_voice_client) Swapping voice client
+[524.6232805252075195] 2018-06-09 12:21:47,873 - DEBUG - musicbot.bot | In bot.py::MainThread(16840), line 531 in reconnect_voice_client: Reconnected voice client on "Bot Dev" to "General"
+[528.6325054168701172] 2018-06-09 12:21:51,882 - DEBUG - musicbot.player | In player.py::MainThread(16840), line 383 in websocket_check: Voice websocket for "Bot Dev" is CLOSED, reconnecting
+[528.6325054168701172] 2018-06-09 12:21:51,882 - DEBUG - musicbot.bot | In bot.py::MainThread(16840), line 487 in reconnect_voice_client: Reconnecting voice client on "Bot Dev" to "General"
+[528.6325054168701172] 2018-06-09 12:21:51,882 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 504 in reconnect_voice_client: (reconnect_voice_client) Disconnecting
+[528.6325054168701172] 2018-06-09 12:21:51,882 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 512 in reconnect_voice_client: (reconnect_voice_client) Sleeping for 0.1
+[528.7336072921752930] 2018-06-09 12:21:51,983 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 516 in reconnect_voice_client: (reconnect_voice_client) Getting voice client
+[528.7336072921752930] 2018-06-09 12:21:51,983 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 523 in reconnect_voice_client: (reconnect_voice_client) Swapping voice client
+[528.7336072921752930] 2018-06-09 12:21:51,983 - DEBUG - musicbot.bot | In bot.py::MainThread(16840), line 531 in reconnect_voice_client: Reconnected voice client on "Bot Dev" to "General"
+[532.7406539916992188] 2018-06-09 12:21:55,990 - DEBUG - musicbot.player | In player.py::MainThread(16840), line 383 in websocket_check: Voice websocket for "Bot Dev" is CLOSED, reconnecting
+[532.7406539916992188] 2018-06-09 12:21:55,990 - DEBUG - musicbot.bot | In bot.py::MainThread(16840), line 487 in reconnect_voice_client: Reconnecting voice client on "Bot Dev" to "General"
+[532.7406539916992188] 2018-06-09 12:21:55,990 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 504 in reconnect_voice_client: (reconnect_voice_client) Disconnecting
+[532.7406539916992188] 2018-06-09 12:21:55,990 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 512 in reconnect_voice_client: (reconnect_voice_client) Sleeping for 0.1
+[532.8413846492767334] 2018-06-09 12:21:56,091 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 516 in reconnect_voice_client: (reconnect_voice_client) Getting voice client
+[532.8413846492767334] 2018-06-09 12:21:56,091 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 523 in reconnect_voice_client: (reconnect_voice_client) Swapping voice client
+[532.8413846492767334] 2018-06-09 12:21:56,091 - DEBUG - musicbot.bot | In bot.py::MainThread(16840), line 531 in reconnect_voice_client: Reconnected voice client on "Bot Dev" to "General"
+[536.8466131687164307] 2018-06-09 12:22:00,096 - DEBUG - musicbot.player | In player.py::MainThread(16840), line 383 in websocket_check: Voice websocket for "Bot Dev" is CLOSED, reconnecting
+[536.8466131687164307] 2018-06-09 12:22:00,096 - DEBUG - musicbot.bot | In bot.py::MainThread(16840), line 487 in reconnect_voice_client: Reconnecting voice client on "Bot Dev" to "General"
+[536.8466131687164307] 2018-06-09 12:22:00,096 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 504 in reconnect_voice_client: (reconnect_voice_client) Disconnecting
+[536.8466131687164307] 2018-06-09 12:22:00,096 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 512 in reconnect_voice_client: (reconnect_voice_client) Sleeping for 0.1
+[536.9470775127410889] 2018-06-09 12:22:00,196 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 516 in reconnect_voice_client: (reconnect_voice_client) Getting voice client
+[536.9470775127410889] 2018-06-09 12:22:00,196 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 523 in reconnect_voice_client: (reconnect_voice_client) Swapping voice client
+[536.9470775127410889] 2018-06-09 12:22:00,196 - DEBUG - musicbot.bot | In bot.py::MainThread(16840), line 531 in reconnect_voice_client: Reconnected voice client on "Bot Dev" to "General"
+[540.9437086582183838] 2018-06-09 12:22:04,193 - DEBUG - musicbot.player | In player.py::MainThread(16840), line 383 in websocket_check: Voice websocket for "Bot Dev" is CLOSED, reconnecting
+[540.9437086582183838] 2018-06-09 12:22:04,193 - DEBUG - musicbot.bot | In bot.py::MainThread(16840), line 487 in reconnect_voice_client: Reconnecting voice client on "Bot Dev" to "General"
+[540.9437086582183838] 2018-06-09 12:22:04,193 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 504 in reconnect_voice_client: (reconnect_voice_client) Disconnecting
+[540.9437086582183838] 2018-06-09 12:22:04,193 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 512 in reconnect_voice_client: (reconnect_voice_client) Sleeping for 0.1
+[541.0446467399597168] 2018-06-09 12:22:04,294 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 516 in reconnect_voice_client: (reconnect_voice_client) Getting voice client
+[541.0446467399597168] 2018-06-09 12:22:04,294 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(16840), line 523 in reconnect_voice_client: (reconnect_voice_client) Swapping voice client
+[541.0446467399597168] 2018-06-09 12:22:04,294 - DEBUG - musicbot.bot | In bot.py::MainThread(16840), line 531 in reconnect_voice_client: Reconnected voice client on "Bot Dev" to "General"
